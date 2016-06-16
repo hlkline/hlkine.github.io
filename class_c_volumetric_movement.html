@@ -142,12 +142,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad26b11c08de25982c8f254d465d244bb"><td class="memItemLeft" align="right" valign="top">su2double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#ad26b11c08de25982c8f254d465d244bb">SetFEAMethodContributions_Elem</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:ad26b11c08de25982c8f254d465d244bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the stiffness matrix for grid deformation using spring analogy.  <a href="#ad26b11c08de25982c8f254d465d244bb">More...</a><br/></td></tr>
 <tr class="separator:ad26b11c08de25982c8f254d465d244bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad54a08295349fa22c94c8a52661dcf07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#ad54a08295349fa22c94c8a52661dcf07">SetFEA_StiffMatrix3D</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config, su2double **StiffMatrix_Elem, unsigned long PointCorners[8], su2double CoordCorners[8][3], unsigned short nNodes, su2double scale)</td></tr>
-<tr class="memdesc:ad54a08295349fa22c94c8a52661dcf07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the stiffness matrix for a 3-D hexahedron element. The result will be placed in StiffMatrix_Elem.  <a href="#ad54a08295349fa22c94c8a52661dcf07">More...</a><br/></td></tr>
-<tr class="separator:ad54a08295349fa22c94c8a52661dcf07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35776ae88ef7d580ccdea77f320e6170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#a35776ae88ef7d580ccdea77f320e6170">SetFEA_StiffMatrix2D</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config, su2double **StiffMatrix_Elem, unsigned long PointCorners[8], su2double CoordCorners[8][3], unsigned short nNodes, su2double scale)</td></tr>
-<tr class="memdesc:a35776ae88ef7d580ccdea77f320e6170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the stiffness matrix for a 3-D hexahedron element. The result will be placed in StiffMatrix_Elem.  <a href="#a35776ae88ef7d580ccdea77f320e6170">More...</a><br/></td></tr>
-<tr class="separator:a35776ae88ef7d580ccdea77f320e6170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9988a1d647d3c0d4fa7c37f4a6985a4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#a9988a1d647d3c0d4fa7c37f4a6985a4f">SetFEA_StiffMatrix3D</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config, su2double **StiffMatrix_Elem, unsigned long PointCorners[8], su2double CoordCorners[8][3], unsigned short nNodes, su2double ElemVolume, su2double ElemDistance)</td></tr>
+<tr class="memdesc:a9988a1d647d3c0d4fa7c37f4a6985a4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the stiffness matrix for a 3-D hexahedron element. The result will be placed in StiffMatrix_Elem.  <a href="#a9988a1d647d3c0d4fa7c37f4a6985a4f">More...</a><br/></td></tr>
+<tr class="separator:a9988a1d647d3c0d4fa7c37f4a6985a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701f9e550b1d2e2a781f5b4aed1fb0c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#a701f9e550b1d2e2a781f5b4aed1fb0c2">SetFEA_StiffMatrix2D</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config, su2double **StiffMatrix_Elem, unsigned long PointCorners[8], su2double CoordCorners[8][3], unsigned short nNodes, su2double ElemVolume, su2double ElemDistance)</td></tr>
+<tr class="memdesc:a701f9e550b1d2e2a781f5b4aed1fb0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the stiffness matrix for a 3-D hexahedron element. The result will be placed in StiffMatrix_Elem.  <a href="#a701f9e550b1d2e2a781f5b4aed1fb0c2">More...</a><br/></td></tr>
+<tr class="separator:a701f9e550b1d2e2a781f5b4aed1fb0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a124ed1d2c27cde5c2f7e773a5041deb9"><td class="memItemLeft" align="right" valign="top">su2double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#a124ed1d2c27cde5c2f7e773a5041deb9">ShapeFunc_Hexa</a> (su2double Xi, su2double Eta, su2double Zeta, su2double CoordCorners[8][3], su2double DShapeFunction[8][4])</td></tr>
 <tr class="memdesc:a124ed1d2c27cde5c2f7e773a5041deb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shape functions and derivative of the shape functions.  <a href="#a124ed1d2c27cde5c2f7e773a5041deb9">More...</a><br/></td></tr>
 <tr class="separator:a124ed1d2c27cde5c2f7e773a5041deb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,12 +187,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac6ce7aa6302e773340d0c0d5bc871356"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#ac6ce7aa6302e773340d0c0d5bc871356">AddFEA_StiffMatrix</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, su2double **StiffMatrix_Elem, unsigned long PointCorners[8], unsigned short nNodes)</td></tr>
 <tr class="memdesc:ac6ce7aa6302e773340d0c0d5bc871356"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the stiffness matrix for a 2-D triangular element to the global stiffness matrix for the entire mesh (node-based).  <a href="#ac6ce7aa6302e773340d0c0d5bc871356">More...</a><br/></td></tr>
 <tr class="separator:ac6ce7aa6302e773340d0c0d5bc871356"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3307b7b5c683ee291b3beeee63ab0fa5"><td class="memItemLeft" align="right" valign="top">su2double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#a3307b7b5c683ee291b3beeee63ab0fa5">Check_Grid</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry)</td></tr>
-<tr class="memdesc:a3307b7b5c683ee291b3beeee63ab0fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for negative volumes (all elements) after performing grid deformation.  <a href="#a3307b7b5c683ee291b3beeee63ab0fa5">More...</a><br/></td></tr>
-<tr class="separator:a3307b7b5c683ee291b3beeee63ab0fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40df7d0f01a59034505b0643a415cf4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#a40df7d0f01a59034505b0643a415cf4f">ComputeDeforming_Wall_Distance</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:a40df7d0f01a59034505b0643a415cf4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the minimum distance to the nearest deforming surface.  <a href="#a40df7d0f01a59034505b0643a415cf4f">More...</a><br/></td></tr>
-<tr class="separator:a40df7d0f01a59034505b0643a415cf4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad364d99ad70bd7507de5bb62a1d0c23d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#ad364d99ad70bd7507de5bb62a1d0c23d">ComputeDeforming_Element_Volume</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, su2double &amp;MinVolume, su2double &amp;MaxVolume)</td></tr>
+<tr class="memdesc:ad364d99ad70bd7507de5bb62a1d0c23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for negative volumes (all elements) after performing grid deformation.  <a href="#ad364d99ad70bd7507de5bb62a1d0c23d">More...</a><br/></td></tr>
+<tr class="separator:ad364d99ad70bd7507de5bb62a1d0c23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af607492832366fedb059ca3528dc03b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#af607492832366fedb059ca3528dc03b5">ComputeDeforming_Wall_Distance</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config, su2double &amp;MinDistance, su2double &amp;MaxDistance)</td></tr>
+<tr class="memdesc:af607492832366fedb059ca3528dc03b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the minimum distance to the nearest deforming surface.  <a href="#af607492832366fedb059ca3528dc03b5">More...</a><br/></td></tr>
+<tr class="separator:af607492832366fedb059ca3528dc03b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3555067b3e76a3d6fed5d78a21a776ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_volumetric_movement.html#a3555067b3e76a3d6fed5d78a21a776ea">SetBoundaryDisplacements</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:a3555067b3e76a3d6fed5d78a21a776ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the boundary vertex that are going to be moved.  <a href="#a3555067b3e76a3d6fed5d78a21a776ea">More...</a><br/></td></tr>
 <tr class="separator:a3555067b3e76a3d6fed5d78a21a776ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -287,7 +287,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for moving the volumetric numerical grid. </p>
 <dl class="section author"><dt>Author</dt><dd>F. Palacios, A. Bueno, T. Economon, S. Padron. </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>4.1.0 "Cardinal" </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>4.2.0 "Cardinal" </dd></dl>
 
 <p>Definition at line <a class="el" href="grid__movement__structure_8hpp_source.html#l00743">743</a> of file <a class="el" href="grid__movement__structure_8hpp_source.html">grid_movement_structure.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -338,20 +338,36 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01670">1670</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01649">1649</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3307b7b5c683ee291b3beeee63ab0fa5"></a>
+<a class="anchor" id="ad364d99ad70bd7507de5bb62a1d0c23d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">su2double CVolumetricMovement::Check_Grid </td>
+          <td class="memname">void CVolumetricMovement::ComputeDeforming_Element_Volume </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_c_geometry.html">CGeometry</a> *&#160;</td>
-          <td class="paramname"><em>geometry</em></td><td>)</td>
+          <td class="paramname"><em>geometry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">su2double &amp;&#160;</td>
+          <td class="paramname"><em>MinVolume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">su2double &amp;&#160;</td>
+          <td class="paramname"><em>MaxVolume</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -364,11 +380,11 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00305">305</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00310">310</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a40df7d0f01a59034505b0643a415cf4f"></a>
+<a class="anchor" id="af607492832366fedb059ca3528dc03b5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -382,7 +398,19 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_c_config.html">CConfig</a> *&#160;</td>
-          <td class="paramname"><em>config</em>&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">su2double &amp;&#160;</td>
+          <td class="paramname"><em>MinDistance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">su2double &amp;&#160;</td>
+          <td class="paramname"><em>MaxDistance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -401,7 +429,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00389">389</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00394">394</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -556,7 +584,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01287">1287</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01310">1310</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -582,7 +610,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01226">1226</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01249">1249</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -608,7 +636,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01182">1182</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01205">1205</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -634,7 +662,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01123">1123</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01146">1146</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -660,7 +688,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01155">1155</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01178">1178</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -686,7 +714,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01102">1102</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01125">1125</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -737,7 +765,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02121">2121</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02103">2103</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -788,7 +816,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02286">2286</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02268">2268</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -839,7 +867,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01949">1949</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01931">1931</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -890,7 +918,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02428">2428</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02410">2410</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -961,7 +989,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01835">1835</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01815">1815</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -998,7 +1026,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01710">1710</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01689">1689</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1035,11 +1063,11 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01906">1906</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01888">1888</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a35776ae88ef7d580ccdea77f320e6170"></a>
+<a class="anchor" id="a701f9e550b1d2e2a781f5b4aed1fb0c2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1083,7 +1111,13 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">su2double&#160;</td>
-          <td class="paramname"><em>scale</em>&#160;</td>
+          <td class="paramname"><em>ElemVolume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">su2double&#160;</td>
+          <td class="paramname"><em>ElemDistance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1107,11 +1141,11 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01382">1382</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01405">1405</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad54a08295349fa22c94c8a52661dcf07"></a>
+<a class="anchor" id="a9988a1d647d3c0d4fa7c37f4a6985a4f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1155,7 +1189,13 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">su2double&#160;</td>
-          <td class="paramname"><em>scale</em>&#160;</td>
+          <td class="paramname"><em>ElemVolume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">su2double&#160;</td>
+          <td class="paramname"><em>ElemDistance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1179,7 +1219,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01506">1506</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01507">1507</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1217,7 +1257,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Value of the length of the smallest edge of the grid. </dd></dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00547">547</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00588">588</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1268,7 +1308,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00116">116</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00122">122</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1312,7 +1352,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02634">2634</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02616">2616</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1356,7 +1396,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02545">2545</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02527">2527</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1400,7 +1440,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02584">2584</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l02566">2566</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1458,7 +1498,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01002">1002</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01025">1025</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1516,7 +1556,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00928">928</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00951">951</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1574,7 +1614,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00840">840</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00863">863</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1625,7 +1665,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00707">707</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00730">730</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1683,7 +1723,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00770">770</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00793">793</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1734,7 +1774,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00646">646</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00669">669</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1771,7 +1811,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00087">87</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00093">93</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1845,7 +1885,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01868">1868</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l01848">1848</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1882,7 +1922,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00098">98</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="grid__movement__structure_8cpp_source.html#l00104">104</a> of file <a class="el" href="grid__movement__structure_8cpp_source.html">grid_movement_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1894,7 +1934,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:40:17 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 16 2016 19:51:00 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

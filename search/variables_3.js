@@ -29,7 +29,5 @@ var searchData=
   ['drtstar_5fdutvar',['dRTstar_dUTvar',['../class_c_adj_turb_variable.html#a8acf00aab762164ef60fc994f0ce4871',1,'CAdjTurbVariable']]],
   ['dtde_5frho',['dTde_rho',['../class_c_fluid_model.html#a8520f3527762bcf1b9ba7a5c9a2df792',1,'CFluidModel']]],
   ['dtdrho_5fe',['dTdrho_e',['../class_c_fluid_model.html#a53c0b25e5fe6fb273c3f1dd805571c49',1,'CFluidModel']]],
-  ['dvdu',['dVdU',['../class_c_numerics.html#ac01cd51b2fde644707559316fa5acd5f',1,'CNumerics']]],
-  ['dynamic_5fanalysis',['dynamic_analysis',['../class_c_f_e_m___elas_variable.html#a3ce0dd4e41608764637e2173f7cca22e',1,'CFEM_ElasVariable']]],
-  ['dynamicfea',['dynamicFEA',['../class_c_f_e_a_variable.html#a1828e4df3bf57ffb4138c19ed3f74ea8',1,'CFEAVariable']]]
+  ['dynamic_5fanalysis',['dynamic_analysis',['../class_c_f_e_m___elas_variable.html#a3ce0dd4e41608764637e2173f7cca22e',1,'CFEM_ElasVariable']]]
 ];

@@ -7,8 +7,6 @@ var searchData=
   ['lift_5fcoefficient',['LIFT_COEFFICIENT',['../option__structure_8hpp.html#a451d8d6bd6a84f670f76e9fc4e3dfe8aa74469d47da8b77e6328e3661964307d8',1,'option_structure.hpp']]],
   ['line',['LINE',['../option__structure_8hpp.html#a53dca17cf73f15e0b4209faab95c6977ab023460c84f774a219d46ccf4665994c',1,'option_structure.hpp']]],
   ['linear_5felastic',['LINEAR_ELASTIC',['../option__structure_8hpp.html#aab35e030f4526a82d71b32c230cb0cbba4d1dd2ca5b1d978848c4608ff328c9f9',1,'option_structure.hpp']]],
-  ['linear_5felasticity',['LINEAR_ELASTICITY',['../option__structure_8hpp.html#a7e93bda08563596859d4d82f0ab516acaccd6910d25b21e4a1ad755cdc10d14a9',1,'option_structure.hpp']]],
-  ['linear_5felasticity_5fsfsi',['LINEAR_ELASTICITY_SFSI',['../option__structure_8hpp.html#a23fc49e1bb5cb9febf0eb26cf5054ceda42faa19376f477e241d2ebe137a15558',1,'option_structure.hpp']]],
   ['linelet',['LINELET',['../option__structure_8hpp.html#ab54440e50a711be5d03018e3d4cd6e53a105f29603556753f88d072b770fbb448',1,'option_structure.hpp']]],
   ['lm',['LM',['../option__structure_8hpp.html#ae87af5bfaaf4dc4cac5b9f9570c0f691a33b001a5e83080723bc1c2284f6b0b84',1,'option_structure.hpp']]],
   ['load_5fboundary',['LOAD_BOUNDARY',['../option__structure_8hpp.html#ab191e495c66e3b4c7560f90ad44e820baf3c376f01c7e1f009231b6c0f3668e86',1,'option_structure.hpp']]],

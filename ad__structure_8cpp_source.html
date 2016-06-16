@@ -107,12 +107,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordtype">int</span> adjointVectorPosition = 0;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  std::vector&lt;unsigned int&gt; inputValues;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  std::vector&lt;unsigned int&gt; localInputValues;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  std::vector&lt;su2double::GradientData&gt; inputValues;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  std::vector&lt;su2double::GradientData&gt; localInputValues;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  std::vector&lt;su2double*&gt; localOutputValues;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  codi::ChunkTape&lt;double, int&gt;&amp; globalTape = codi::RealReverse::getGlobalTape();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  codi::ChunkTape&lt;double, int&gt;::Position StartPosition, EndPosition;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  su2double::TapeType&amp; globalTape = su2double::getGlobalTape();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  su2double::TapeType::Position StartPosition, EndPosition;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordtype">bool</span> Status = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">bool</span> PreaccActive = <span class="keyword">false</span>;</div>
@@ -122,7 +122,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span>(PreaccActive){</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iVarOut, iVarIn;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nVarOut, nVarIn;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      <span class="keywordtype">int</span> index_out, index_in;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      su2double::GradientData index_out, index_in;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      nVarOut = localOutputValues.size();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      nVarIn  = localInputValues.size();</div>
@@ -133,7 +133,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="comment">/*--- Allocate local memory on the stack (does not need to be deleted at the end of the routine!) ---*/</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <span class="keywordtype">double</span>* local_jacobi     = (<span class="keywordtype">double</span>*)alloca(<span class="keyword">sizeof</span>(<span class="keywordtype">double</span>)*(nVarOut*nVarIn));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      passivedouble* local_jacobi     = (passivedouble*)alloca(<span class="keyword">sizeof</span>(passivedouble)*(nVarOut*nVarIn));</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>* nNonzero = (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>*)alloca(<span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>)*nVarOut);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="comment">/*--- Compute the local Jacobi matrix of the code between the start and end position</span></div>
@@ -168,7 +168,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">       * Note that the output variables need a new index since we did a reset of the tape section. ---*/</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="keywordflow">for</span> (iVarOut = 0; iVarOut &lt; nVarOut; iVarOut++){</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        index_out = 0;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        index_out = su2double::GradientData();</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">if</span> (nNonzero[iVarOut] != 0){</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          globalTape.store(index_out, nNonzero[iVarOut]);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;          <span class="keywordflow">for</span> (iVarIn = 0; iVarIn &lt; nVarIn; iVarIn++){</div>
@@ -182,19 +182,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="comment">/* --- Clear local vectors and reset indicator ---*/</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      localInputValues.clear();</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      localOutputValues.clear();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      PreaccActive = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  }</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      localInputValues.clear();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      localOutputValues.clear();</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      PreaccActive = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="namespace_a_d_html_a309d057a92faa60a3a760254678ec9ea"><div class="ttname"><a href="namespace_a_d.html#a309d057a92faa60a3a760254678ec9ea">AD::EndPreacc</a></div><div class="ttdeci">void EndPreacc()</div><div class="ttdoc">Ends a preaccumulation section and computes the local Jacobi matrix of a code section using the varia...</div><div class="ttdef"><b>Definition:</b> <a href="ad__structure_8inl_source.html#l00161">ad_structure.inl:161</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:40:00 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 16 2016 19:50:26 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

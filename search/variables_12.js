@@ -34,7 +34,6 @@ var searchData=
   ['total_5fcmy',['Total_CMy',['../class_c_euler_solver.html#a1ab0389bd1b63b46b2ecb7be2965887e',1,'CEulerSolver']]],
   ['total_5fcmz',['Total_CMz',['../class_c_euler_solver.html#ae7efa1c49f22d7f90aecb440babbb01b',1,'CEulerSolver']]],
   ['total_5fcnearfieldof',['Total_CNearFieldOF',['../class_c_euler_solver.html#a1cb71015ac974edae45b211e2bc24ef8',1,'CEulerSolver']]],
-  ['total_5fcomboobj',['Total_ComboObj',['../class_c_euler_solver.html#a07af565d218aa7f35b1404c13436546b',1,'CEulerSolver']]],
   ['total_5fcpdiff',['Total_CpDiff',['../class_c_euler_solver.html#a7ceb1a31e760a84dd81de9f46c563d9c',1,'CEulerSolver']]],
   ['total_5fcq',['Total_CQ',['../class_c_euler_solver.html#abb423341586f18740ecbabb72954079b',1,'CEulerSolver']]],
   ['total_5fcsideforce',['Total_CSideForce',['../class_c_euler_solver.html#a8fed0c195f4c1de8e08bf8c3bd673f80',1,'CEulerSolver']]],

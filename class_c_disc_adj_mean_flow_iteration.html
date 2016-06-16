@@ -161,15 +161,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac42a66e916068ddf795befc3d35b745b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_disc_adj_mean_flow_iteration.html#ac42a66e916068ddf795befc3d35b745b">SetDependencies</a> (<a class="el" href="class_c_solver.html">CSolver</a> ****solver_container, <a class="el" href="class_c_geometry.html">CGeometry</a> ***geometry_container, <a class="el" href="class_c_config.html">CConfig</a> **config_container, unsigned short iZone, unsigned short kind_recording)</td></tr>
 <tr class="memdesc:ac42a66e916068ddf795befc3d35b745b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute necessary variables that depend on the conservative variables or the mesh node positions (e.g. turbulent variables, normals, volumes).  <a href="#ac42a66e916068ddf795befc3d35b745b">More...</a><br/></td></tr>
 <tr class="separator:ac42a66e916068ddf795befc3d35b745b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c48ae4409b832501396b26365df1ac7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_disc_adj_mean_flow_iteration.html#a4c48ae4409b832501396b26365df1ac7">LoadUnsteady_Solution</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> ***geometry_container, <a class="el" href="class_c_solver.html">CSolver</a> ****solver_container, <a class="el" href="class_c_config.html">CConfig</a> **config_container, unsigned short val_iZone, int val_DirectIter)</td></tr>
+<tr class="memdesc:a4c48ae4409b832501396b26365df1ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">load unsteady solution for unsteady problems  <a href="#a4c48ae4409b832501396b26365df1ac7">More...</a><br/></td></tr>
+<tr class="separator:a4c48ae4409b832501396b26365df1ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_c_iteration"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_c_iteration')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_c_iteration.html">CIteration</a></td></tr>
 <tr class="memitem:a39be84a1ff56f5daa37f17de0ce73b03 inherit pub_methods_class_c_iteration"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39be84a1ff56f5daa37f17de0ce73b03"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_iteration.html#a39be84a1ff56f5daa37f17de0ce73b03">CIteration</a> (<a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:a39be84a1ff56f5daa37f17de0ce73b03 inherit pub_methods_class_c_iteration"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class. <br/></td></tr>
 <tr class="separator:a39be84a1ff56f5daa37f17de0ce73b03 inherit pub_methods_class_c_iteration"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa934f1ce53b16b34ce45fe34d27ce5a6 inherit pub_methods_class_c_iteration"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa934f1ce53b16b34ce45fe34d27ce5a6"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_iteration.html#aa934f1ce53b16b34ce45fe34d27ce5a6">~CIteration</a> (void)</td></tr>
-<tr class="memdesc:aa934f1ce53b16b34ce45fe34d27ce5a6 inherit pub_methods_class_c_iteration"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the class. <br/></td></tr>
-<tr class="separator:aa934f1ce53b16b34ce45fe34d27ce5a6 inherit pub_methods_class_c_iteration"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7fba7e16e2a71f4e9760374f4fc4ae inherit pub_methods_class_c_iteration"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6f7fba7e16e2a71f4e9760374f4fc4ae"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_iteration.html#a6f7fba7e16e2a71f4e9760374f4fc4ae">~CIteration</a> (void)</td></tr>
+<tr class="memdesc:a6f7fba7e16e2a71f4e9760374f4fc4ae inherit pub_methods_class_c_iteration"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the class. <br/></td></tr>
+<tr class="separator:a6f7fba7e16e2a71f4e9760374f4fc4ae inherit pub_methods_class_c_iteration"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -182,9 +185,9 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for driving an iteration of the discrete adjoint mean flow system. </p>
 <dl class="section author"><dt>Author</dt><dd>T. Economon </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>4.1.0 "Cardinal" </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>4.2.0 "Cardinal" </dd></dl>
 
-<p>Definition at line <a class="el" href="iteration__structure_8hpp_source.html#l00856">856</a> of file <a class="el" href="iteration__structure_8hpp_source.html">iteration_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="iteration__structure_8hpp_source.html#l00762">762</a> of file <a class="el" href="iteration__structure_8hpp_source.html">iteration_structure.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac30427857ad65a700b82312597c9188f"></a>
 <div class="memitem">
@@ -207,6 +210,8 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01362">1362</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -257,6 +262,8 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01804">1804</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -356,7 +363,67 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_c_iteration.html#aefcd29831ccb78c07814834b1721fe87">CIteration</a>.</p>
+<p>Reimplemented from <a class="el" href="class_c_iteration.html#a6c313a03100ceb1ff685720e41460ced">CIteration</a>.</p>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01532">1532</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4c48ae4409b832501396b26365df1ac7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CDiscAdjMeanFlowIteration::LoadUnsteady_Solution </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_c_geometry.html">CGeometry</a> ***&#160;</td>
+          <td class="paramname"><em>geometry_container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_c_solver.html">CSolver</a> ****&#160;</td>
+          <td class="paramname"><em>solver_container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_c_config.html">CConfig</a> **&#160;</td>
+          <td class="paramname"><em>config_container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>val_iZone</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val_DirectIter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>load unsteady solution for unsteady problems </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">geometry_container</td><td>- Geometrical definition of the problem. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">solver_container</td><td>- Container vector with all the solutions. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">config_container</td><td>- Definition of the particular problem. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val_iZone</td><td>- Index of the zone. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val_DirectIter</td><td>- Direct iteration to load. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01496">1496</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -389,7 +456,9 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_c_iteration.html#a3c0cbea44ded8e0d593c11e3dce80058">CIteration</a>.</p>
+<p>Reimplemented from <a class="el" href="class_c_iteration.html#ad4733fff46962a529d4a0df7135806ad">CIteration</a>.</p>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01830">1830</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -422,7 +491,9 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_c_iteration.html#a32314dbf96253ada19ad22fbd6156436">CIteration</a>.</p>
+<p>Reimplemented from <a class="el" href="class_c_iteration.html#a93c101ab257c2c6ee956719229779351">CIteration</a>.</p>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01831">1831</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -455,7 +526,9 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_c_iteration.html#afd784b2b31f81aa643c36d14832d3243">CIteration</a>.</p>
+<p>Reimplemented from <a class="el" href="class_c_iteration.html#ad23b83ae0793f7af90dcdc1ed9ab77b8">CIteration</a>.</p>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01832">1832</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -547,7 +620,9 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_c_iteration.html#aaba799b57b8b9d1f25c429359d45da5f">CIteration</a>.</p>
+<p>Reimplemented from <a class="el" href="class_c_iteration.html#aae8b5e46d1dd52b38b2b1b4942049b83">CIteration</a>.</p>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01371">1371</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -605,6 +680,8 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01743">1743</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a234bb2676ce75434dbc8342bf5323abb"></a>
@@ -653,6 +730,8 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01788">1788</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -709,6 +788,8 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01768">1768</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -808,6 +889,8 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01633">1633</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="acff39322599d3d785ef1150295a107f6"></a>
@@ -898,17 +981,20 @@ unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_c_iteration.html#a5a36ba2a41daff0cc643307cc888e2af">CIteration</a>.</p>
+<p>Reimplemented from <a class="el" href="class_c_iteration.html#a577688982d9f8e235e159d82e0eb1131">CIteration</a>.</p>
+
+<p>Definition at line <a class="el" href="iteration__structure_8cpp_source.html#l01820">1820</a> of file <a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="iteration__structure_8hpp_source.html">iteration_structure.hpp</a></li>
+<li><a class="el" href="iteration__structure_8cpp_source.html">iteration_structure.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:40:08 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 16 2016 19:50:41 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

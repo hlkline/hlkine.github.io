@@ -480,6 +480,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_geometry.html#a29a225360aca347f0c478ec5919681d5">SegmentIntersectsTriangle</a> (su2double point0[3], su2double point1[3], su2double vert0[3], su2double vert1[3], su2double vert2[3])</td></tr>
 <tr class="memdesc:a29a225360aca347f0c478ec5919681d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment Intersects Triangle. <br/></td></tr>
 <tr class="separator:a29a225360aca347f0c478ec5919681d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff90b550c92763f5e8187e50b1828c99"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff90b550c92763f5e8187e50b1828c99"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_geometry.html#aff90b550c92763f5e8187e50b1828c99">SegmentIntersectsLine</a> (su2double point0[2], su2double point1[2], su2double vert0[2], su2double vert1[2])</td></tr>
+<tr class="memdesc:aff90b550c92763f5e8187e50b1828c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment Intersects Line (for 2D FFD Intersection) <br/></td></tr>
+<tr class="separator:aff90b550c92763f5e8187e50b1828c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a335405024cbc91d79429d60394d55af2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_geometry.html#a335405024cbc91d79429d60394d55af2">RegisterCoordinates</a> (<a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:a335405024cbc91d79429d60394d55af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register the coordinates of the mesh nodes.  <a href="#a335405024cbc91d79429d60394d55af2">More...</a><br/></td></tr>
 <tr class="separator:a335405024cbc91d79429d60394d55af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -581,12 +585,9 @@ vector&lt; su2double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a 
 unsigned long *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_geometry.html#a1d4725c52445e7fd18ecbeb29aa4848b">nNewElem_Bound</a></td></tr>
 <tr class="memdesc:a1d4725c52445e7fd18ecbeb29aa4848b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of new periodic elements of the boundary. <br/></td></tr>
 <tr class="separator:a1d4725c52445e7fd18ecbeb29aa4848b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98e395bfbb744472934eeca0662e9d9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98e395bfbb744472934eeca0662e9d9d"></a>
-unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>local_node</b></td></tr>
-<tr class="separator:a98e395bfbb744472934eeca0662e9d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749196184697544132eec32ba9b7315b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a749196184697544132eec32ba9b7315b"></a>
-unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>local_elem</b></td></tr>
-<tr class="separator:a749196184697544132eec32ba9b7315b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b71862b31e6b83e7ae808839ae7ccd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b71862b31e6b83e7ae808839ae7ccd8"></a>
+map&lt; unsigned long, unsigned long &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Global_to_Local_Elem</b></td></tr>
+<tr class="separator:a8b71862b31e6b83e7ae808839ae7ccd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52dbf2d7f95aafff7af312db671cc4cc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52dbf2d7f95aafff7af312db671cc4cc"></a>
 unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>xadj_size</b></td></tr>
 <tr class="separator:a52dbf2d7f95aafff7af312db671cc4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -602,12 +603,6 @@ unsigned long *&#160;</td><td class="memItemRight" valign="bottom"><b>ending_nod
 <tr class="memitem:a64ef17e1cfeac4e7c7cf427e78f62817"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64ef17e1cfeac4e7c7cf427e78f62817"></a>
 unsigned long *&#160;</td><td class="memItemRight" valign="bottom"><b>npoint_procs</b></td></tr>
 <tr class="separator:a64ef17e1cfeac4e7c7cf427e78f62817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a838390b0f82522cfc9297137c74b72d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a838390b0f82522cfc9297137c74b72d5"></a>
-unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>no_of_local_elements</b></td></tr>
-<tr class="separator:a838390b0f82522cfc9297137c74b72d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc7daa4c25575b8430b42a4c12c2e1a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc7daa4c25575b8430b42a4c12c2e1a8"></a>
-long *&#160;</td><td class="memItemRight" valign="bottom"><b>Global_to_local_elem</b></td></tr>
-<tr class="separator:afc7daa4c25575b8430b42a4c12c2e1a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -747,7 +742,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parent class for defining the geometry of the problem (complete geometry, multigrid agglomerated geometry, only boundary geometry, etc..) </p>
 <dl class="section author"><dt>Author</dt><dd>F. Palacios </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>4.1.0 "Cardinal" </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>4.2.0 "Cardinal" </dd></dl>
 
 <p>Definition at line <a class="el" href="geometry__structure_8hpp_source.html#l00070">70</a> of file <a class="el" href="geometry__structure_8hpp_source.html">geometry_structure.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -857,7 +852,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Index of the edge. </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00202">202</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00204">204</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1403,7 +1398,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00528">528</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00575">575</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1429,7 +1424,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00859">859</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00906">906</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1542,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Index of the edge. </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00185">185</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00187">187</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -2667,7 +2662,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <p>Given the arrays xa[1..n] and ya[1..n], which tabulate a function (with the xai’s in order), and given the array y2a[1..n], which is the output from spline above, and given a value of x, this routine returns a cubic-spline interpolated value y. Numerical Recipes: The Art of Scientific Computing, Third Edition in C++. </p>
 <dl class="section return"><dt>Returns</dt><dd>The interpolated value of for x. </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00359">359</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00363">363</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -2893,7 +2888,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Signed distance. </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00161">161</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00163">163</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -2919,7 +2914,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00827">827</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00874">874</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -2996,7 +2991,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>If the intersection has has been successful. </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00382">382</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00386">386</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -4672,7 +4667,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00838">838</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry__structure_8cpp_source.html#l00885">885</a> of file <a class="el" href="geometry__structure_8cpp_source.html">geometry_structure.cpp</a>.</p>
 
 </div>
 </div>
@@ -4731,7 +4726,7 @@ unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:40:10 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 16 2016 19:50:43 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

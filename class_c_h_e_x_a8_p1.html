@@ -142,7 +142,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac4c1bc44d350bab7e74e30f144f9314c inherit pub_methods_class_c_h_e_x_a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_h_e_x_a8.html#ac4c1bc44d350bab7e74e30f144f9314c">CHEXA8</a> (unsigned short val_nDim, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="separator:ac4c1bc44d350bab7e74e30f144f9314c inherit pub_methods_class_c_h_e_x_a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a351a1a181a533aef8a2d853fa4b975b1 inherit pub_methods_class_c_h_e_x_a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a351a1a181a533aef8a2d853fa4b975b1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_h_e_x_a8.html#a351a1a181a533aef8a2d853fa4b975b1">~CHEXA8</a> (void)</td></tr>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_h_e_x_a8.html#a351a1a181a533aef8a2d853fa4b975b1">~CHEXA8</a> (void)</td></tr>
 <tr class="memdesc:a351a1a181a533aef8a2d853fa4b975b1 inherit pub_methods_class_c_h_e_x_a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the class. <br/></td></tr>
 <tr class="separator:a351a1a181a533aef8a2d853fa4b975b1 inherit pub_methods_class_c_h_e_x_a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6b54b4296842f0116152bd40759c500 inherit pub_methods_class_c_h_e_x_a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_h_e_x_a8.html#ac6b54b4296842f0116152bd40759c500">ComputeGrad_Linear</a> (void)</td></tr>
@@ -222,6 +222,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="memitem:a19a2ae7db04ab88e555a1694c3d985c2 inherit pub_methods_class_c_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#a19a2ae7db04ab88e555a1694c3d985c2">Add_Kt_a</a> (su2double *val_Kt_a, unsigned short nodeA)</td></tr>
 <tr class="memdesc:a19a2ae7db04ab88e555a1694c3d985c2 inherit pub_methods_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the value of the nodal stress term for the computation of the residual.  <a href="#a19a2ae7db04ab88e555a1694c3d985c2">More...</a><br/></td></tr>
 <tr class="separator:a19a2ae7db04ab88e555a1694c3d985c2 inherit pub_methods_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d639b2b432929e1e7ee6cc85ef5350 inherit pub_methods_class_c_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#aa5d639b2b432929e1e7ee6cc85ef5350">Add_FDL_a</a> (su2double *val_FDL_a, unsigned short nodeA)</td></tr>
+<tr class="memdesc:aa5d639b2b432929e1e7ee6cc85ef5350 inherit pub_methods_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the value of the dead load for the computation of the residual.  <a href="#aa5d639b2b432929e1e7ee6cc85ef5350">More...</a><br/></td></tr>
+<tr class="separator:aa5d639b2b432929e1e7ee6cc85ef5350 inherit pub_methods_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18e66e299496fd5c03411a08d7ab52d9 inherit pub_methods_class_c_element"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#a18e66e299496fd5c03411a08d7ab52d9">Set_Kk_ab</a> (su2double **val_Kk_ab, unsigned short nodeA, unsigned short nodeB)</td></tr>
 <tr class="memdesc:a18e66e299496fd5c03411a08d7ab52d9 inherit pub_methods_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value of a submatrix K relating nodes a and b, for the pressure term (this term is subintegrated).  <a href="#a18e66e299496fd5c03411a08d7ab52d9">More...</a><br/></td></tr>
 <tr class="separator:a18e66e299496fd5c03411a08d7ab52d9 inherit pub_methods_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,6 +251,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aef944357e6aad96457a0f25c5e9e0292 inherit pub_methods_class_c_element"><td class="memItemLeft" align="right" valign="top">su2double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#aef944357e6aad96457a0f25c5e9e0292">Get_Kt_a</a> (unsigned short nodeA)</td></tr>
 <tr class="memdesc:aef944357e6aad96457a0f25c5e9e0292 inherit pub_methods_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of the nodal stress component of the residual for node a.  <a href="#aef944357e6aad96457a0f25c5e9e0292">More...</a><br/></td></tr>
 <tr class="separator:aef944357e6aad96457a0f25c5e9e0292 inherit pub_methods_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab519414ee8a5133d9deab0302c19cb9d inherit pub_methods_class_c_element"><td class="memItemLeft" align="right" valign="top">su2double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#ab519414ee8a5133d9deab0302c19cb9d">Get_FDL_a</a> (unsigned short nodeA)</td></tr>
+<tr class="memdesc:ab519414ee8a5133d9deab0302c19cb9d inherit pub_methods_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of the dead load component of the residual for node a.  <a href="#ab519414ee8a5133d9deab0302c19cb9d">More...</a><br/></td></tr>
+<tr class="separator:ab519414ee8a5133d9deab0302c19cb9d inherit pub_methods_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a390630ef83c04791052e916da89bd19b inherit pub_methods_class_c_element"><td class="memItemLeft" align="right" valign="top">su2double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#a390630ef83c04791052e916da89bd19b">GetNi</a> (unsigned short iNode, unsigned short iGauss)</td></tr>
 <tr class="memdesc:a390630ef83c04791052e916da89bd19b inherit pub_methods_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the value of the shape functions.  <a href="#a390630ef83c04791052e916da89bd19b">More...</a><br/></td></tr>
 <tr class="separator:a390630ef83c04791052e916da89bd19b inherit pub_methods_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,6 +351,10 @@ su2double ***&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 su2double **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#aec9681b2bfe75c489c63dd79063a7d31">Kt_a</a></td></tr>
 <tr class="memdesc:aec9681b2bfe75c489c63dd79063a7d31 inherit pro_attribs_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for the nodal stress term for the residual computation. <br/></td></tr>
 <tr class="separator:aec9681b2bfe75c489c63dd79063a7d31 inherit pro_attribs_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8894a75d327ec8d91ea0d6fc27eac5 inherit pro_attribs_class_c_element"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e8894a75d327ec8d91ea0d6fc27eac5"></a>
+su2double **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#a2e8894a75d327ec8d91ea0d6fc27eac5">FDL_a</a></td></tr>
+<tr class="memdesc:a2e8894a75d327ec8d91ea0d6fc27eac5 inherit pro_attribs_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure for the dead loads for the residual computation. <br/></td></tr>
+<tr class="separator:a2e8894a75d327ec8d91ea0d6fc27eac5 inherit pro_attribs_class_c_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9c73eda27830c9118f408ef3c226b9c inherit pro_attribs_class_c_element"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad9c73eda27830c9118f408ef3c226b9c"></a>
 su2double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_element.html#ad9c73eda27830c9118f408ef3c226b9c">el_Pressure</a></td></tr>
 <tr class="memdesc:ad9c73eda27830c9118f408ef3c226b9c inherit pro_attribs_class_c_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pressure in the element. <br/></td></tr>
@@ -358,9 +368,9 @@ static unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a clas
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hexahedral element with 8 Gauss Points and 1 Gauss Point for pressure subintegration. </p>
 <dl class="section author"><dt>Author</dt><dd>R. Sanchez </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>4.1.0 "Cardinal" </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>4.2.0 "Cardinal" </dd></dl>
 
-<p>Definition at line <a class="el" href="element__structure_8hpp_source.html#l00626">626</a> of file <a class="el" href="element__structure_8hpp_source.html">element_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="element__structure_8hpp_source.html#l00641">641</a> of file <a class="el" href="element__structure_8hpp_source.html">element_structure.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af20a9f569321cc13225534b2a8b5c0c0"></a>
 <div class="memitem">
@@ -394,7 +404,7 @@ static unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a clas
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="element__linear_8cpp_source.html#l01435">1435</a> of file <a class="el" href="element__linear_8cpp_source.html">element_linear.cpp</a>.</p>
+<p>Definition at line <a class="el" href="element__linear_8cpp_source.html#l01445">1445</a> of file <a class="el" href="element__linear_8cpp_source.html">element_linear.cpp</a>.</p>
 
 </div>
 </div>
@@ -432,7 +442,7 @@ static unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a clas
 
 <p>Reimplemented from <a class="el" href="class_c_h_e_x_a8.html#aabe0cdbe0a747643e322af58bf719ca6">CHEXA8</a>.</p>
 
-<p>Definition at line <a class="el" href="element__linear_8cpp_source.html#l01491">1491</a> of file <a class="el" href="element__linear_8cpp_source.html">element_linear.cpp</a>.</p>
+<p>Definition at line <a class="el" href="element__linear_8cpp_source.html#l01497">1497</a> of file <a class="el" href="element__linear_8cpp_source.html">element_linear.cpp</a>.</p>
 
 </div>
 </div>
@@ -443,7 +453,7 @@ static unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:40:10 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 16 2016 19:50:43 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -415,14 +415,10 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
 <p>MG_ADJFLOW<br/>
  DESCRIPTION: Multigrid with the adjoint problem. <br/>
  Defualt: YES</p>
-<p>OBJECTIVE_WEIGHT <br/>
- DESCRIPTION: Adjoint problem boundary condition weights. Applies scaling factor to objective(s)</p>
 <p>OBJECTIVE_FUNCTION <br/>
  DESCRIPTION: Adjoint problem boundary condition <br/>
  OPTIONS: see <a class="el" href="">Objective_Map</a> <br/>
  DEFAULT: DRAG_COEFFICIENT</p>
-<p>COMBINE_OBJECTIVE <br/>
- DESCRIPTION: Flag specifying whether to internally combine a multi-objective function or treat separately</p>
 <p>OBJ_CHAIN_RULE_COEFF <br/>
  DESCRIPTION: Coefficients defining the objective function gradient using the chain rule with area-averaged outlet primitive variables. This is used with the genereralized outflow objective.</p>
 <p>SENS_REMOVE_SHARP <br/>
@@ -491,6 +487,10 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
  DESCRIPTION: Output file surface flow coefficient (w/o extension)</p>
 <p>SURFACE_ADJ_FILENAME <br/>
  DESCRIPTION: Output file surface adjoint coefficient (w/o extension)</p>
+<p>SURFACE_SENS_FILENAME_FILENAME <br/>
+ DESCRIPTION: Output file surface sensitivity (discrete adjoint) (w/o extension)</p>
+<p>VOLUME_SENS_FILENAME <br/>
+ DESCRIPTION: Output file volume sensitivity (discrete adjoint))</p>
 <p>WRT_SOL_FREQ <br/>
  DESCRIPTION: Writing solution file frequency</p>
 <p>WRT_SOL_FREQ_DUALTIME <br/>
@@ -539,10 +539,13 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
 <p>REGIME_TYPE <br/>
  DESCRIPTION: Compressibility of the material <br/>
  OPTIONS: see <a class="el" href="">MatComp_Map</a></p>
+<p>PRESTRETCH_FILENAME <br/>
+ DESCRIPTION: Filename to input for prestretching membranes <br/>
+ Default: prestretch_file.dat</p>
 <p>PHYSICAL_PROBLEM_FLUID_FSI DESCRIPTION: Physical governing equations <br/>
  Options: NONE (default),EULER, NAVIER_STOKES, RANS,</p>
 <p>PHYSICAL_PROBLEM_STRUCTURAL_FSI DESCRIPTION: Physical governing equations <br/>
- Options: NONE (default), LINEAR_ELASTICITY, NONLINEAR_ELASTICITY</p>
+ Options: NONE (default), FEM_ELASTICITY</p>
 <dl class="section user"><dt>KIND_INTERPOLATION </dt><dd>DESCRIPTION: Type of interpolation to use for multi-zone problems. <br/>
  OPTIONS: see <a class="el" href="">Interpolator_Map</a> Sets Kind_Interpolation</dd></dl>
 <dl class="section user"><dt>CONFIG_CATEGORY: Wave solver </dt><dd></dd></dl>
@@ -551,17 +554,17 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
 <dl class="section user"><dt>CONFIG_CATEGORY: Inverse design problem </dt><dd></dd></dl>
 <dl class="section user"><dt>CONFIG_CATEGORY: Unsupported options </dt><dd></dd></dl>
 <dl class="section user"><dt>CONFIG_CATEGORY:FFD point inversion </dt><dd></dd></dl>
-<dl class="section user"><dt>CONFIG_CATEGORY: Direct Differentation options </dt><dd></dd></dl>
+<dl class="section user"><dt>CONFIG_CATEGORY: Automatic Differentation options </dt><dd></dd></dl>
 <dl class="section user"><dt>CONFIG_CATEGORY:Python Options </dt><dd></dd></dl>
 
-<p>Definition at line <a class="el" href="config__structure_8cpp_source.html#l00188">188</a> of file <a class="el" href="config__structure_8cpp_source.html">config_structure.cpp</a>.</p>
+<p>Definition at line <a class="el" href="config__structure_8cpp_source.html#l00209">209</a> of file <a class="el" href="config__structure_8cpp_source.html">config_structure.cpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:40:04 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 16 2016 19:50:36 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

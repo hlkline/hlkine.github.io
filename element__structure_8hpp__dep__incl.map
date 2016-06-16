@@ -1,0 +1,15 @@
+<map id="element_structure.hpp" name="element_structure.hpp">
+<area shape="rect" id="node2" href="$element__linear_8cpp.html" title="Definition of the linear element structure for structural applications. " alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node3" href="$element__structure_8cpp.html" title="Definition of the Finite Element structure (elements) " alt="" coords="160,80,308,107"/>
+<area shape="rect" id="node4" href="$numerics__structure_8hpp.html" title="Headers of the main subroutines for the dumerical definition of the problem. The subroutines and func..." alt="" coords="485,80,639,107"/>
+<area shape="rect" id="node5" href="$solver__structure_8hpp.html" title="Headers of the main subroutines for solving partial differential equations. The subroutines and funct..." alt="" coords="912,155,1047,181"/>
+<area shape="rect" id="node11" href="$definition__structure_8hpp.html" title="Headers of the main subroutines used by SU2_CFD. The subroutines and functions are in the definition_..." alt="" coords="736,528,889,555"/>
+<area shape="rect" id="node9" href="$iteration__structure_8hpp.html" title="Headers of the main subroutines used by SU2_CFD. The subroutines and functions are in the definition_..." alt="" coords="637,379,785,405"/>
+<area shape="rect" id="node10" href="$driver__structure_8hpp.html" title="Headers of the main subroutines for driving single or multi&#45;zone problems. The subroutines and functi..." alt="" coords="861,453,995,480"/>
+<area shape="rect" id="node12" href="$_s_u2___c_f_d_8hpp.html" title="Headers of the main subroutines of the code SU2_CFD. The subroutines and functions are in the SU2_CFD..." alt="" coords="819,603,923,629"/>
+<area shape="rect" id="node6" href="$_s_u2___d_e_f_8hpp.html" title="Headers of the main subroutines of the code SU2_DEF. The subroutines and functions are in the SU2_DEF..." alt="" coords="1290,379,1392,405"/>
+<area shape="rect" id="node8" href="$output__structure_8hpp.html" title="Headers of the main subroutines for generating the file outputs. The subroutines and functions are in..." alt="" coords="1115,304,1253,331"/>
+<area shape="rect" id="node13" href="$integration__structure_8hpp.html" title="Headers of the main subroutines for space and time integration. The subroutines and functions are in ..." alt="" coords="968,229,1131,256"/>
+<area shape="rect" id="node14" href="$transfer__structure_8hpp.html" title="Headers of the transfer structure The subroutines and functions are in the transfer_structure.cpp and transfer_physics.cpp files. " alt="" coords="488,304,635,331"/>
+<area shape="rect" id="node7" href="$_s_u2___d_e_f_8cpp.html" title="Main file of Mesh Deformation Code (SU2_DEF). " alt="" coords="1290,453,1392,480"/>
+</map>

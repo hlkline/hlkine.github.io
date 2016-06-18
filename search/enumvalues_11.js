@@ -28,6 +28,7 @@ var searchData=
   ['space_5fupwind',['SPACE_UPWIND',['../option__structure_8hpp.html#a2f436b50a2e934ba5ac3b8613ec01893a75f749187e10beec1f6e0dbc1654043d',1,'option_structure.hpp']]],
   ['sst',['SST',['../option__structure_8hpp.html#ad373dc9c6ae8d8d7fe047111b3944f4ea92433826a98d86b2750b2126b12892e6',1,'option_structure.hpp']]],
   ['stage',['STAGE',['../option__structure_8hpp.html#a0cb0c8623acb8fba067af0874d53a1c6aabdf346cfc40be1a014cf4295888c888',1,'option_structure.hpp']]],
+  ['standard_5fair',['STANDARD_AIR',['../option__structure_8hpp.html#ac309910df55b56aee3a4077631ef2ca6a27b0e0183e180e07e87338c46d879469',1,'option_structure.hpp']]],
   ['static',['STATIC',['../option__structure_8hpp.html#a20a77f64cbbfb260d40a212649b22739ae55a36a850c67d46b3b3325de7fce0b8',1,'option_structure.hpp']]],
   ['static_5fpressure',['STATIC_PRESSURE',['../option__structure_8hpp.html#a5d71f391b914291d278ea064ff1d630aab43a8babdd78cf02702bb2fb348a8026',1,'option_structure.hpp']]],
   ['static_5fsupersonic_5finflow_5fpd',['STATIC_SUPERSONIC_INFLOW_PD',['../option__structure_8hpp.html#a5d71f391b914291d278ea064ff1d630aa3220fb2c414b80589e6e55d1158b4d00',1,'option_structure.hpp']]],
@@ -46,6 +47,7 @@ var searchData=
   ['supersonic_5foutlet',['SUPERSONIC_OUTLET',['../option__structure_8hpp.html#ab191e495c66e3b4c7560f90ad44e820bacaed259788fb153495d0901f31e529bf',1,'option_structure.hpp']]],
   ['supersonic_5fshock',['SUPERSONIC_SHOCK',['../option__structure_8hpp.html#af7c1c2099c3cc1e62cf123b468d04c4aa2f6334071f3f8a1a1b538593bcd460e6',1,'option_structure.hpp']]],
   ['surface_5ffile',['SURFACE_FILE',['../option__structure_8hpp.html#a5158b968be3483028d02119f8ce110c9a876c65530f494f003b41a6d073db718f',1,'option_structure.hpp']]],
+  ['sutherland',['SUTHERLAND',['../option__structure_8hpp.html#a83df276d33a9e23b8ae7dd00db6fd817a0316ed5cbc90bdaf08101ed1aeeae0c8',1,'option_structure.hpp']]],
   ['sw',['SW',['../option__structure_8hpp.html#a0e6f6eb4c523780ba375ff4b5ecb906aa247b880fc48dc1c74961ba58ae0f68a2',1,'option_structure.hpp']]],
   ['symmetry_5fplane',['SYMMETRY_PLANE',['../option__structure_8hpp.html#ab191e495c66e3b4c7560f90ad44e820ba880ef9c3117aab907dc52253247e0c23',1,'option_structure.hpp']]]
 ];

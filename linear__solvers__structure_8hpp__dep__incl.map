@@ -15,18 +15,18 @@
 <area shape="rect" id="node24" href="$integration__structure_8hpp.html" title="Headers of the main subroutines for space and time integration. The subroutines and functions are in ..." alt="" coords="2968,245,3131,272"/>
 <area shape="rect" id="node27" href="$transfer__structure_8hpp.html" title="Headers of the transfer structure The subroutines and functions are in the transfer_structure.cpp and transfer_physics.cpp files. " alt="" coords="3247,320,3393,347"/>
 <area shape="rect" id="node30" href="$solver__adjoint__discrete_8cpp.html" title="Main subroutines for solving the discrete adjoint problem. " alt="" coords="528,245,704,272"/>
-<area shape="rect" id="node31" href="$solver__adjoint__levelset_8cpp_source.html" title="solver_adjoint_levelset.cpp" alt="" coords="729,245,903,272"/>
-<area shape="rect" id="node32" href="$solver__adjoint__mean_8cpp_source.html" title="solver_adjoint_mean.cpp" alt="" coords="928,245,1091,272"/>
-<area shape="rect" id="node33" href="$solver__adjoint__turbulent_8cpp_source.html" title="solver_adjoint_turbulent.cpp" alt="" coords="1115,245,1296,272"/>
+<area shape="rect" id="node31" href="$solver__adjoint__levelset_8cpp.html" title="solver_adjoint_levelset.cpp" alt="" coords="729,245,903,272"/>
+<area shape="rect" id="node32" href="$solver__adjoint__mean_8cpp.html" title="solver_adjoint_mean.cpp" alt="" coords="928,245,1091,272"/>
+<area shape="rect" id="node33" href="$solver__adjoint__turbulent_8cpp.html" title="solver_adjoint_turbulent.cpp" alt="" coords="1115,245,1296,272"/>
 <area shape="rect" id="node34" href="$solver__direct__elasticity_8cpp.html" title="Main subroutines for solving direct FEM elasticity problems. " alt="" coords="1321,245,1495,272"/>
-<area shape="rect" id="node35" href="$solver__direct__heat_8cpp_source.html" title="solver_direct_heat.cpp" alt="" coords="1519,245,1669,272"/>
-<area shape="rect" id="node36" href="$solver__direct__mean_8cpp_source.html" title="solver_direct_mean.cpp" alt="" coords="1695,245,1852,272"/>
-<area shape="rect" id="node37" href="$solver__direct__poisson_8cpp_source.html" title="solver_direct_poisson.cpp" alt="" coords="1876,245,2044,272"/>
-<area shape="rect" id="node38" href="$solver__direct__transition_8cpp_source.html" title="solver_direct_transition.cpp" alt="" coords="2069,245,2245,272"/>
-<area shape="rect" id="node39" href="$solver__direct__turbulent_8cpp_source.html" title="solver_direct_turbulent.cpp" alt="" coords="2270,245,2444,272"/>
-<area shape="rect" id="node40" href="$solver__direct__wave_8cpp_source.html" title="solver_direct_wave.cpp" alt="" coords="2469,245,2623,272"/>
+<area shape="rect" id="node35" href="$solver__direct__heat_8cpp.html" title="solver_direct_heat.cpp" alt="" coords="1519,245,1669,272"/>
+<area shape="rect" id="node36" href="$solver__direct__mean_8cpp.html" title="solver_direct_mean.cpp" alt="" coords="1695,245,1852,272"/>
+<area shape="rect" id="node37" href="$solver__direct__poisson_8cpp.html" title="solver_direct_poisson.cpp" alt="" coords="1876,245,2044,272"/>
+<area shape="rect" id="node38" href="$solver__direct__transition_8cpp.html" title="solver_direct_transition.cpp" alt="" coords="2069,245,2245,272"/>
+<area shape="rect" id="node39" href="$solver__direct__turbulent_8cpp.html" title="solver_direct_turbulent.cpp" alt="" coords="2270,245,2444,272"/>
+<area shape="rect" id="node40" href="$solver__direct__wave_8cpp.html" title="solver_direct_wave.cpp" alt="" coords="2469,245,2623,272"/>
 <area shape="rect" id="node41" href="$solver__structure_8cpp.html" title="Main subrotuines for solving direct, adjoint and linearized problems. " alt="" coords="2648,245,2783,272"/>
-<area shape="rect" id="node42" href="$solver__template_8cpp_source.html" title="solver_template.cpp" alt="" coords="2808,245,2943,272"/>
+<area shape="rect" id="node42" href="$solver__template_8cpp.html" title="solver_template.cpp" alt="" coords="2808,245,2943,272"/>
 <area shape="rect" id="node6" href="$_s_u2___d_e_f_8cpp.html" title="Main file of Mesh Deformation Code (SU2_DEF). " alt="" coords="225,469,327,496"/>
 <area shape="rect" id="node18" href="$output__cgns_8cpp.html" title="Main subroutines for output solver information. " alt="" coords="351,395,467,421"/>
 <area shape="rect" id="node19" href="$output__fieldview_8cpp.html" title="Main subroutines for output solver information. " alt="" coords="491,395,628,421"/>
@@ -41,7 +41,7 @@
 <area shape="rect" id="node14" href="$_s_u2___c_f_d_8cpp.html" title="Main file of the Computational Fluid Dynamics code. " alt="" coords="2765,693,2869,720"/>
 <area shape="rect" id="node25" href="$integration__structure_8cpp.html" title="This subroutine includes the space and time integration structure. " alt="" coords="2695,320,2857,347"/>
 <area shape="rect" id="node26" href="$integration__time_8cpp.html" title="Time dependent numerical methods. " alt="" coords="2881,320,3020,347"/>
-<area shape="rect" id="node28" href="$transfer__physics_8cpp_source.html" title="transfer_physics.cpp" alt="" coords="3399,395,3537,421"/>
+<area shape="rect" id="node28" href="$transfer__physics_8cpp.html" title="transfer_physics.cpp" alt="" coords="3399,395,3537,421"/>
 <area shape="rect" id="node29" href="$transfer__structure_8cpp.html" title="Main subroutines for physics of the information transfer between zones. " alt="" coords="3561,395,3708,421"/>
 <area shape="rect" id="node44" href="$_s_u2___g_e_o_8cpp.html" title="Main file of the Geometry Definition Code (SU2_GEO). " alt="" coords="144,245,251,272"/>
 </map>

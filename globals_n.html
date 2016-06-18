@@ -79,8 +79,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="globals.html"><span>All</span></a></li>
       <li><a href="globals_func.html"><span>Functions</span></a></li>
       <li><a href="globals_vars.html"><span>Variables</span></a></li>
+      <li><a href="globals_type.html"><span>Typedefs</span></a></li>
       <li><a href="globals_enum.html"><span>Enumerations</span></a></li>
       <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -118,7 +120,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all documented file members with links to the documentation:</div>
+<div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
 <li>N_ELEM_TYPES
@@ -206,6 +208,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>NO_CONVECTIVE
 : <a class="el" href="option__structure_8hpp.html#a2f436b50a2e934ba5ac3b8613ec01893a8bc42036829523816bf9cee6d119790d">option_structure.hpp</a>
 </li>
+<li>NO_DERIVATIVE
+: <a class="el" href="option__structure_8hpp.html#a18b02df0aacaa4543f6ca9ab3099570eab012a405d657538d342635f1e5b99685">option_structure.hpp</a>
+</li>
 <li>NO_GEO_ANALYTIC
 : <a class="el" href="option__structure_8hpp.html#aa993e6648e36baf41346a24d58b0ddd2a12c93ea80f61d0ce74d519b29996ee65">option_structure.hpp</a>
 </li>
@@ -242,14 +247,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>NO_UPWIND
 : <a class="el" href="option__structure_8hpp.html#a0e6f6eb4c523780ba375ff4b5ecb906aa6dd88896a19ee62b10d42107e75405b1">option_structure.hpp</a>
 </li>
+<li>NonDim_Map
+: <a class="el" href="option__structure_8hpp.html#a17e86ca0dc6c299743aa277137f2eb6f">option_structure.hpp</a>
+</li>
+<li>NONE
+: <a class="el" href="option__structure_8hpp.html#a0e3c6990687ed4453e660b9db9181885ac157bdf0b85a40d2619cbc8bc1ae5fe2">option_structure.hpp</a>
+</li>
 <li>NRBC_BOUNDARY
 : <a class="el" href="option__structure_8hpp.html#ab191e495c66e3b4c7560f90ad44e820ba8cf158f9117065c7081cf3bb155b9898">option_structure.hpp</a>
+</li>
+<li>NRBC_Map
+: <a class="el" href="option__structure_8hpp.html#a14a3c7fa18da203bced3b235222ed0f0">option_structure.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:51:01 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 18 2016 13:23:37 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

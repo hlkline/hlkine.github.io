@@ -44,8 +44,8 @@
 <area shape="rect" id="node37" href="$matrix__structure_8cpp.html" title="Main subroutines for doing the sparse structures. " alt="" coords="1343,461,1481,488"/>
 <area shape="rect" id="node35" href="$linear__solvers__structure_8cpp.html" title="Main classes required for solving linear systems of equations. " alt="" coords="1525,552,1704,579"/>
 <area shape="rect" id="node39" href="$interpolation__structure_8cpp.html" title="Main subroutines used by SU2_FSI. " alt="" coords="93,949,267,976"/>
-<area shape="rect" id="node47" href="$fluid__model_8cpp_source.html" title="fluid_model.cpp" alt="" coords="3370,461,3480,488"/>
-<area shape="rect" id="node48" href="$fluid__model__pig_8cpp_source.html" title="fluid_model_pig.cpp" alt="" coords="3505,461,3639,488"/>
-<area shape="rect" id="node49" href="$fluid__model__ppr_8cpp_source.html" title="fluid_model_ppr.cpp" alt="" coords="3664,461,3799,488"/>
-<area shape="rect" id="node50" href="$fluid__model__pvdw_8cpp_source.html" title="fluid_model_pvdw.cpp" alt="" coords="3199,461,3345,488"/>
+<area shape="rect" id="node47" href="$fluid__model_8cpp.html" title="fluid_model.cpp" alt="" coords="3370,461,3480,488"/>
+<area shape="rect" id="node48" href="$fluid__model__pig_8cpp.html" title="fluid_model_pig.cpp" alt="" coords="3505,461,3639,488"/>
+<area shape="rect" id="node49" href="$fluid__model__ppr_8cpp.html" title="fluid_model_ppr.cpp" alt="" coords="3664,461,3799,488"/>
+<area shape="rect" id="node50" href="$fluid__model__pvdw_8cpp.html" title="fluid_model_pvdw.cpp" alt="" coords="3199,461,3345,488"/>
 </map>

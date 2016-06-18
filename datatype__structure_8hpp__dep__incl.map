@@ -1,8 +1,8 @@
 <map id="datatype_structure.hpp" name="datatype_structure.hpp">
-<area shape="rect" id="node2" href="$ad__structure_8hpp_source.html" title="ad_structure.hpp" alt="" coords="2739,80,2855,107"/>
+<area shape="rect" id="node2" href="$ad__structure_8hpp.html" title="ad_structure.hpp" alt="" coords="2739,80,2855,107"/>
 <area shape="rect" id="node3" href="$mpi__structure_8hpp.html" title="Headers of the mpi interface for generalized datatypes. The subroutines and functions are in the mpi_..." alt="" coords="2879,80,3003,107"/>
 <area shape="rect" id="node4" href="$config__structure_8hpp.html" title="All the information about the definition of the physical problem. The subroutines and functions are i..." alt="" coords="2554,229,2691,256"/>
-<area shape="rect" id="node48" href="$ad__structure_8cpp_source.html" title="ad_structure.cpp" alt="" coords="3717,80,3833,107"/>
+<area shape="rect" id="node48" href="$ad__structure_8cpp.html" title="ad_structure.cpp" alt="" coords="3717,80,3833,107"/>
 <area shape="rect" id="node49" href="$transport__model_8hpp.html" title="Headers of the main transport properties subroutines of the SU2 solvers. " alt="" coords="3864,80,4003,107"/>
 <area shape="rect" id="node5" href="$dual__grid__structure_8hpp.html" title="Headers of the main subroutines for doing the complete dual grid structure. The subroutines and funct..." alt="" coords="2203,304,2356,331"/>
 <area shape="rect" id="node6" href="$primal__grid__structure_8hpp.html" title="Headers of the main subroutines for storing the primal grid structure. The subroutines and functions ..." alt="" coords="2635,379,2801,405"/>
@@ -47,5 +47,5 @@
 <area shape="rect" id="node32" href="$linear__solvers__structure_8cpp.html" title="Main classes required for solving linear systems of equations. " alt="" coords="1273,701,1452,728"/>
 <area shape="rect" id="node36" href="$interpolation__structure_8cpp.html" title="Main subroutines used by SU2_FSI. " alt="" coords="296,611,469,637"/>
 <area shape="rect" id="node46" href="$vector__structure_8cpp.html" title="Main classes required for solving linear systems of equations. " alt="" coords="533,528,672,555"/>
-<area shape="rect" id="node50" href="$transport__model_8cpp_source.html" title="transport_model.cpp" alt="" coords="4173,155,4312,181"/>
+<area shape="rect" id="node50" href="$transport__model_8cpp.html" title="transport_model.cpp" alt="" coords="4173,155,4312,181"/>
 </map>

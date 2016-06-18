@@ -79,8 +79,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="globals.html"><span>All</span></a></li>
       <li><a href="globals_func.html"><span>Functions</span></a></li>
       <li><a href="globals_vars.html"><span>Variables</span></a></li>
+      <li><a href="globals_type.html"><span>Typedefs</span></a></li>
       <li><a href="globals_enum.html"><span>Enumerations</span></a></li>
       <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -118,7 +120,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all documented file members with links to the documentation:</div>
+<div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
 <li>LAM_VISC
@@ -140,17 +142,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>LAX
 : <a class="el" href="option__structure_8hpp.html#a3f8233d6265facefd98dd3e9a3a8eef2a631fd552956ba8ef0c45f8ca8f5603ff">option_structure.hpp</a>
 </li>
+<li>ldexp()
+: <a class="el" href="complex__structure_8inl.html#a65af724195da6fee42d7d75fcfe75c7f">complex_structure.inl</a>
+</li>
 <li>LEGACY_METHOD
 : <a class="el" href="option__structure_8hpp.html#a32f7dd87817921d2bcc392f50a1856b3a616cda0e4ec4ff69635f3e07c2d7ab08">option_structure.hpp</a>
 </li>
+<li>LEN_COMPONENTS
+: <a class="el" href="fluid__model_8hpp.html#a8d5b653f55e08825ecf1acbcff904947">fluid_model.hpp</a>
+, <a class="el" href="transport__model_8hpp.html#a8d5b653f55e08825ecf1acbcff904947">transport_model.hpp</a>
+</li>
 <li>LIFT_COEFFICIENT
 : <a class="el" href="option__structure_8hpp.html#a451d8d6bd6a84f670f76e9fc4e3dfe8aa74469d47da8b77e6328e3661964307d8">option_structure.hpp</a>
+</li>
+<li>Limiter_Map
+: <a class="el" href="option__structure_8hpp.html#a3ace10a16534067e33a24e327afcf948">option_structure.hpp</a>
 </li>
 <li>LINE
 : <a class="el" href="option__structure_8hpp.html#a53dca17cf73f15e0b4209faab95c6977ab023460c84f774a219d46ccf4665994c">option_structure.hpp</a>
 </li>
 <li>LINEAR_ELASTIC
 : <a class="el" href="option__structure_8hpp.html#aab35e030f4526a82d71b32c230cb0cbba4d1dd2ca5b1d978848c4608ff328c9f9">option_structure.hpp</a>
+</li>
+<li>Linear_Solver_Map
+: <a class="el" href="option__structure_8hpp.html#a5b201289ba45123f7ac6066ab5d98092">option_structure.hpp</a>
+</li>
+<li>Linear_Solver_Prec_Map
+: <a class="el" href="option__structure_8hpp.html#a40472a6d3ed20aabd50d0b615936d6ba">option_structure.hpp</a>
 </li>
 <li>LINELET
 : <a class="el" href="option__structure_8hpp.html#ab54440e50a711be5d03018e3d4cd6e53a105f29603556753f88d072b770fbb448">option_structure.hpp</a>
@@ -167,6 +185,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>LOAD_SINE_BOUNDARY
 : <a class="el" href="option__structure_8hpp.html#ab191e495c66e3b4c7560f90ad44e820ba7cdc300b1502e4a72daf4ebb4bd1ce35">option_structure.hpp</a>
 </li>
+<li>log()
+: <a class="el" href="complex__structure_8inl.html#a31229f37a0010911b586e27557b0b681">complex_structure.inl</a>
+</li>
+<li>log10()
+: <a class="el" href="complex__structure_8inl.html#a9ffbe7f1e1c8bea43e969bfb67165f77">complex_structure.inl</a>
+</li>
 <li>LU_SGS
 : <a class="el" href="option__structure_8hpp.html#ab54440e50a711be5d03018e3d4cd6e53afff828374803095f982d048fc29651ad">option_structure.hpp</a>
 </li>
@@ -174,7 +198,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:51:01 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 18 2016 13:23:37 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

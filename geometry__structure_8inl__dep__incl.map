@@ -24,18 +24,18 @@
 <area shape="rect" id="node5" href="$element__structure_8cpp.html" title="Definition of the Finite Element structure (elements) " alt="" coords="248,312,396,339"/>
 <area shape="rect" id="node6" href="$numerics__structure_8hpp.html" title="Headers of the main subroutines for the dumerical definition of the problem. The subroutines and func..." alt="" coords="523,312,676,339"/>
 <area shape="rect" id="node22" href="$solver__adjoint__discrete_8cpp.html" title="Main subroutines for solving the discrete adjoint problem. " alt="" coords="2589,469,2765,496"/>
-<area shape="rect" id="node23" href="$solver__adjoint__levelset_8cpp_source.html" title="solver_adjoint_levelset.cpp" alt="" coords="2790,469,2964,496"/>
-<area shape="rect" id="node24" href="$solver__adjoint__mean_8cpp_source.html" title="solver_adjoint_mean.cpp" alt="" coords="549,469,712,496"/>
-<area shape="rect" id="node25" href="$solver__adjoint__turbulent_8cpp_source.html" title="solver_adjoint_turbulent.cpp" alt="" coords="736,469,917,496"/>
+<area shape="rect" id="node23" href="$solver__adjoint__levelset_8cpp.html" title="solver_adjoint_levelset.cpp" alt="" coords="2790,469,2964,496"/>
+<area shape="rect" id="node24" href="$solver__adjoint__mean_8cpp.html" title="solver_adjoint_mean.cpp" alt="" coords="549,469,712,496"/>
+<area shape="rect" id="node25" href="$solver__adjoint__turbulent_8cpp.html" title="solver_adjoint_turbulent.cpp" alt="" coords="736,469,917,496"/>
 <area shape="rect" id="node26" href="$solver__direct__elasticity_8cpp.html" title="Main subroutines for solving direct FEM elasticity problems. " alt="" coords="942,469,1116,496"/>
-<area shape="rect" id="node27" href="$solver__direct__heat_8cpp_source.html" title="solver_direct_heat.cpp" alt="" coords="1141,469,1291,496"/>
-<area shape="rect" id="node28" href="$solver__direct__mean_8cpp_source.html" title="solver_direct_mean.cpp" alt="" coords="1316,469,1473,496"/>
-<area shape="rect" id="node29" href="$solver__direct__poisson_8cpp_source.html" title="solver_direct_poisson.cpp" alt="" coords="1497,469,1665,496"/>
-<area shape="rect" id="node30" href="$solver__direct__transition_8cpp_source.html" title="solver_direct_transition.cpp" alt="" coords="1690,469,1867,496"/>
-<area shape="rect" id="node31" href="$solver__direct__turbulent_8cpp_source.html" title="solver_direct_turbulent.cpp" alt="" coords="1891,469,2065,496"/>
-<area shape="rect" id="node32" href="$solver__direct__wave_8cpp_source.html" title="solver_direct_wave.cpp" alt="" coords="2091,469,2244,496"/>
+<area shape="rect" id="node27" href="$solver__direct__heat_8cpp.html" title="solver_direct_heat.cpp" alt="" coords="1141,469,1291,496"/>
+<area shape="rect" id="node28" href="$solver__direct__mean_8cpp.html" title="solver_direct_mean.cpp" alt="" coords="1316,469,1473,496"/>
+<area shape="rect" id="node29" href="$solver__direct__poisson_8cpp.html" title="solver_direct_poisson.cpp" alt="" coords="1497,469,1665,496"/>
+<area shape="rect" id="node30" href="$solver__direct__transition_8cpp.html" title="solver_direct_transition.cpp" alt="" coords="1690,469,1867,496"/>
+<area shape="rect" id="node31" href="$solver__direct__turbulent_8cpp.html" title="solver_direct_turbulent.cpp" alt="" coords="1891,469,2065,496"/>
+<area shape="rect" id="node32" href="$solver__direct__wave_8cpp.html" title="solver_direct_wave.cpp" alt="" coords="2091,469,2244,496"/>
 <area shape="rect" id="node33" href="$solver__structure_8cpp.html" title="Main subrotuines for solving direct, adjoint and linearized problems. " alt="" coords="2269,469,2404,496"/>
-<area shape="rect" id="node34" href="$solver__template_8cpp_source.html" title="solver_template.cpp" alt="" coords="2429,469,2564,496"/>
+<area shape="rect" id="node34" href="$solver__template_8cpp.html" title="solver_template.cpp" alt="" coords="2429,469,2564,496"/>
 <area shape="rect" id="node15" href="$output__cgns_8cpp.html" title="Main subroutines for output solver information. " alt="" coords="3789,619,3904,645"/>
 <area shape="rect" id="node16" href="$output__fieldview_8cpp.html" title="Main subroutines for output solver information. " alt="" coords="3413,619,3549,645"/>
 <area shape="rect" id="node17" href="$output__paraview_8cpp.html" title="Main subroutines for output solver information. " alt="" coords="3625,619,3764,645"/>

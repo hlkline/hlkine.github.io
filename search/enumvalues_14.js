@@ -9,5 +9,6 @@ var searchData=
   ['verb_5fmedium',['VERB_MEDIUM',['../option__structure_8hpp.html#ae40552e21f517bdde7c1a26de77b3e11a4089d222b593c517559ed6aa3e0a27a9',1,'option_structure.hpp']]],
   ['verb_5fnone',['VERB_NONE',['../option__structure_8hpp.html#ae40552e21f517bdde7c1a26de77b3e11aa28ff1a8dd8122ddad739a63b14d99db',1,'option_structure.hpp']]],
   ['vertex',['VERTEX',['../option__structure_8hpp.html#a53dca17cf73f15e0b4209faab95c6977a2e4d5495bd9d476f78962cebe074ebbd',1,'option_structure.hpp']]],
-  ['vortex',['VORTEX',['../option__structure_8hpp.html#a037cc1c98b2fc32c478ea1f42e16986da52f0168f3ea66bf427ab06a780f35ab2',1,'option_structure.hpp']]]
+  ['vortex',['VORTEX',['../option__structure_8hpp.html#a037cc1c98b2fc32c478ea1f42e16986da52f0168f3ea66bf427ab06a780f35ab2',1,'option_structure.hpp']]],
+  ['vw_5fgas',['VW_GAS',['../option__structure_8hpp.html#ac309910df55b56aee3a4077631ef2ca6abbbb49e6f42fe5d0fec2f5728888a595',1,'option_structure.hpp']]]
 ];

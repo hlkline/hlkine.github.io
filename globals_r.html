@@ -79,8 +79,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="globals.html"><span>All</span></a></li>
       <li><a href="globals_func.html"><span>Functions</span></a></li>
       <li><a href="globals_vars.html"><span>Variables</span></a></li>
+      <li><a href="globals_type.html"><span>Typedefs</span></a></li>
       <li><a href="globals_enum.html"><span>Enumerations</span></a></li>
       <li><a href="globals_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="globals_defs.html"><span>Macros</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -118,7 +120,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all documented file members with links to the documentation:</div>
+<div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>RANS
@@ -137,11 +139,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>RANS_FFSI
 : <a class="el" href="option__structure_8hpp.html#af1b311a67d3f236a5c8f17234c8b292aac14673fc10b3d4e95bc29918658ab7f0">option_structure.hpp</a>
 </li>
+<li>real()
+: <a class="el" href="complex__structure_8inl.html#afac5b59f7e02ef45d0d912f66767e9bd">complex_structure.inl</a>
+, <a class="el" href="complex__structure_8hpp.html#afac5b59f7e02ef45d0d912f66767e9bd">complex_structure.hpp</a>
+</li>
+<li>Regime_Map
+: <a class="el" href="option__structure_8hpp.html#ac388075b0ff0438d9a0d15e4e908da49">option_structure.hpp</a>
+</li>
 <li>REMAINING
 : <a class="el" href="option__structure_8hpp.html#af7c1c2099c3cc1e62cf123b468d04c4aa9f57329a237f5ce69a14ed48699ee3d6">option_structure.hpp</a>
 </li>
 <li>RESIDUAL
 : <a class="el" href="option__structure_8hpp.html#a2b849477d7fb6dc07e2c3727b7576598a3ecb230b89d639d32e0dc7604bf1e7cb">option_structure.hpp</a>
+</li>
+<li>Residual_Map
+: <a class="el" href="option__structure_8hpp.html#a1ed56cdfbcfe5839062f9badc10498c1">option_structure.hpp</a>
 </li>
 <li>RESTARTED_FGMRES
 : <a class="el" href="option__structure_8hpp.html#a1a4e44ca05cd0c194989128cb2d8dc3ba7ecb9a46b8d55d1ccf234f153e575cfb">option_structure.hpp</a>
@@ -157,6 +169,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>RIEMANN_BOUNDARY
 : <a class="el" href="option__structure_8hpp.html#ab191e495c66e3b4c7560f90ad44e820ba7dce7f1da4453165b8d91c603393cac7">option_structure.hpp</a>
+</li>
+<li>Riemann_Map
+: <a class="el" href="option__structure_8hpp.html#ae34afcbda437fe87726d6c4a416b2b64">option_structure.hpp</a>
 </li>
 <li>RIEMANN_TYPE
 : <a class="el" href="option__structure_8hpp.html#a5d71f391b914291d278ea064ff1d630a">option_structure.hpp</a>
@@ -219,7 +234,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:51:01 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 18 2016 13:23:37 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

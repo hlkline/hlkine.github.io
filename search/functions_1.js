@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['badvalue',['badValue',['../class_c_option_base.html#a55776800c1e3ce7d27dea06d03b61c8a',1,'COptionBase']]],
   ['bc_5factdisk_5fboundary',['BC_ActDisk_Boundary',['../class_c_solver.html#ade3f50a53195a281b7bcd45aed5dc09b',1,'CSolver::BC_ActDisk_Boundary()'],['../class_c_euler_solver.html#a850a9e8272e6d0d9ffb1f2d48e3da6e5',1,'CEulerSolver::BC_ActDisk_Boundary()']]],
   ['bc_5fclamped',['BC_Clamped',['../class_c_solver.html#a7b662fc7cc66b5ca45fe7d8a72ed8c4b',1,'CSolver::BC_Clamped()'],['../class_c_f_e_m___elasticity_solver.html#a6a7fbf76211dd62668b338ba5aed8ff5',1,'CFEM_ElasticitySolver::BC_Clamped()']]],
   ['bc_5fclamped_5fpost',['BC_Clamped_Post',['../class_c_solver.html#addf0638954e599f078c10f7adf070589',1,'CSolver::BC_Clamped_Post()'],['../class_c_f_e_m___elasticity_solver.html#a8552b06d06d6e39d3b9bdb0414637e41',1,'CFEM_ElasticitySolver::BC_Clamped_Post()']]],

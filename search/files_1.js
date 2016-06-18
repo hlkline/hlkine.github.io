@@ -1,13 +1,12 @@
 var searchData=
 [
-  ['datatype_5fstructure_2ehpp',['datatype_structure.hpp',['../datatype__structure_8hpp.html',1,'']]],
-  ['datatype_5fstructure_2einl',['datatype_structure.inl',['../datatype__structure_8inl.html',1,'']]],
-  ['definition_5fstructure_2ecpp',['definition_structure.cpp',['../definition__structure_8cpp.html',1,'']]],
-  ['definition_5fstructure_2ehpp',['definition_structure.hpp',['../definition__structure_8hpp.html',1,'']]],
-  ['docmain_2ehpp',['docmain.hpp',['../docmain_8hpp.html',1,'']]],
-  ['driver_5fstructure_2ecpp',['driver_structure.cpp',['../driver__structure_8cpp.html',1,'']]],
-  ['driver_5fstructure_2ehpp',['driver_structure.hpp',['../driver__structure_8hpp.html',1,'']]],
-  ['dual_5fgrid_5fstructure_2ecpp',['dual_grid_structure.cpp',['../dual__grid__structure_8cpp.html',1,'']]],
-  ['dual_5fgrid_5fstructure_2ehpp',['dual_grid_structure.hpp',['../dual__grid__structure_8hpp.html',1,'']]],
-  ['dual_5fgrid_5fstructure_2einl',['dual_grid_structure.inl',['../dual__grid__structure_8inl.html',1,'']]]
+  ['codi_5fforward_5fstructure_2ehpp',['codi_forward_structure.hpp',['../codi__forward__structure_8hpp.html',1,'']]],
+  ['codi_5fforward_5fstructure_2einl',['codi_forward_structure.inl',['../codi__forward__structure_8inl.html',1,'']]],
+  ['codi_5freverse_5fstructure_2ehpp',['codi_reverse_structure.hpp',['../codi__reverse__structure_8hpp.html',1,'']]],
+  ['codi_5freverse_5fstructure_2einl',['codi_reverse_structure.inl',['../codi__reverse__structure_8inl.html',1,'']]],
+  ['complex_5fstructure_2ehpp',['complex_structure.hpp',['../complex__structure_8hpp.html',1,'']]],
+  ['complex_5fstructure_2einl',['complex_structure.inl',['../complex__structure_8inl.html',1,'']]],
+  ['config_5fstructure_2ecpp',['config_structure.cpp',['../config__structure_8cpp.html',1,'']]],
+  ['config_5fstructure_2ehpp',['config_structure.hpp',['../config__structure_8hpp.html',1,'']]],
+  ['config_5fstructure_2einl',['config_structure.inl',['../config__structure_8inl.html',1,'']]]
 ];

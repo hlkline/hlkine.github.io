@@ -27,18 +27,18 @@
 <area shape="rect" id="node6" href="$element__structure_8cpp.html" title="Definition of the Finite Element structure (elements) " alt="" coords="349,387,497,413"/>
 <area shape="rect" id="node7" href="$numerics__structure_8hpp.html" title="Headers of the main subroutines for the dumerical definition of the problem. The subroutines and func..." alt="" coords="624,387,777,413"/>
 <area shape="rect" id="node20" href="$solver__adjoint__discrete_8cpp.html" title="Main subroutines for solving the discrete adjoint problem. " alt="" coords="2891,544,3067,571"/>
-<area shape="rect" id="node21" href="$solver__adjoint__levelset_8cpp_source.html" title="solver_adjoint_levelset.cpp" alt="" coords="651,544,825,571"/>
-<area shape="rect" id="node22" href="$solver__adjoint__mean_8cpp_source.html" title="solver_adjoint_mean.cpp" alt="" coords="851,544,1013,571"/>
-<area shape="rect" id="node23" href="$solver__adjoint__turbulent_8cpp_source.html" title="solver_adjoint_turbulent.cpp" alt="" coords="1037,544,1219,571"/>
+<area shape="rect" id="node21" href="$solver__adjoint__levelset_8cpp.html" title="solver_adjoint_levelset.cpp" alt="" coords="651,544,825,571"/>
+<area shape="rect" id="node22" href="$solver__adjoint__mean_8cpp.html" title="solver_adjoint_mean.cpp" alt="" coords="851,544,1013,571"/>
+<area shape="rect" id="node23" href="$solver__adjoint__turbulent_8cpp.html" title="solver_adjoint_turbulent.cpp" alt="" coords="1037,544,1219,571"/>
 <area shape="rect" id="node24" href="$solver__direct__elasticity_8cpp.html" title="Main subroutines for solving direct FEM elasticity problems. " alt="" coords="1243,544,1417,571"/>
-<area shape="rect" id="node25" href="$solver__direct__heat_8cpp_source.html" title="solver_direct_heat.cpp" alt="" coords="1442,544,1592,571"/>
-<area shape="rect" id="node26" href="$solver__direct__mean_8cpp_source.html" title="solver_direct_mean.cpp" alt="" coords="1617,544,1775,571"/>
-<area shape="rect" id="node27" href="$solver__direct__poisson_8cpp_source.html" title="solver_direct_poisson.cpp" alt="" coords="1799,544,1967,571"/>
-<area shape="rect" id="node28" href="$solver__direct__transition_8cpp_source.html" title="solver_direct_transition.cpp" alt="" coords="1991,544,2168,571"/>
-<area shape="rect" id="node29" href="$solver__direct__turbulent_8cpp_source.html" title="solver_direct_turbulent.cpp" alt="" coords="2193,544,2367,571"/>
-<area shape="rect" id="node30" href="$solver__direct__wave_8cpp_source.html" title="solver_direct_wave.cpp" alt="" coords="2392,544,2545,571"/>
+<area shape="rect" id="node25" href="$solver__direct__heat_8cpp.html" title="solver_direct_heat.cpp" alt="" coords="1442,544,1592,571"/>
+<area shape="rect" id="node26" href="$solver__direct__mean_8cpp.html" title="solver_direct_mean.cpp" alt="" coords="1617,544,1775,571"/>
+<area shape="rect" id="node27" href="$solver__direct__poisson_8cpp.html" title="solver_direct_poisson.cpp" alt="" coords="1799,544,1967,571"/>
+<area shape="rect" id="node28" href="$solver__direct__transition_8cpp.html" title="solver_direct_transition.cpp" alt="" coords="1991,544,2168,571"/>
+<area shape="rect" id="node29" href="$solver__direct__turbulent_8cpp.html" title="solver_direct_turbulent.cpp" alt="" coords="2193,544,2367,571"/>
+<area shape="rect" id="node30" href="$solver__direct__wave_8cpp.html" title="solver_direct_wave.cpp" alt="" coords="2392,544,2545,571"/>
 <area shape="rect" id="node31" href="$solver__structure_8cpp.html" title="Main subrotuines for solving direct, adjoint and linearized problems. " alt="" coords="2571,544,2705,571"/>
-<area shape="rect" id="node32" href="$solver__template_8cpp_source.html" title="solver_template.cpp" alt="" coords="2731,544,2865,571"/>
+<area shape="rect" id="node32" href="$solver__template_8cpp.html" title="solver_template.cpp" alt="" coords="2731,544,2865,571"/>
 <area shape="rect" id="node17" href="$integration__structure_8cpp.html" title="This subroutine includes the space and time integration structure. " alt="" coords="3019,619,3181,645"/>
 <area shape="rect" id="node18" href="$integration__time_8cpp.html" title="Time dependent numerical methods. " alt="" coords="3205,619,3344,645"/>
 <area shape="rect" id="node34" href="$gauss__structure_8cpp.html" title="Definition of the Gaussian Points structure for Finite Element applications. " alt="" coords="624,304,759,331"/>

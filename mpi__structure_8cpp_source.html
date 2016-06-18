@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -125,7 +125,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">double</span> *ValueBuffer = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">double</span> *AuxBuffer   = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    su2double *SendBuffer = <span class="keyword">static_cast&lt;</span>su2double*<span class="keyword">&gt;</span>(buf);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *SendBuffer = <span class="keyword">static_cast&lt;</span><a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>*<span class="keyword">&gt;</span>(buf);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">/*--- Extract real value and imag value ---*/</span></div>
@@ -172,7 +172,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">double</span> *ValueBuffer = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">double</span> *AuxBuffer   = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    su2double *RecvBuffer = <span class="keyword">static_cast&lt;</span>su2double*<span class="keyword">&gt;</span>(buf);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *RecvBuffer = <span class="keyword">static_cast&lt;</span><a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>*<span class="keyword">&gt;</span>(buf);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="comment">/*---  Recv real value and imag value ---*/</span></div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
@@ -218,7 +218,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  CommInfo info = CommInfoIt-&gt;second;</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordtype">double</span> *ValueBuffer   = info.ValueBuffer;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="keywordtype">double</span> *AuxBuffer     = info.AuxBuffer;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  su2double *Buffer     = info.su2doubleBuffer;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *Buffer     = info.su2doubleBuffer;</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  MPI_Status status;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  MPI_Request *RequestAux = info.RequestAux;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="keywordtype">int</span> iVal, count = info.count;</div>
@@ -288,7 +288,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordtype">double</span> *AuxBuffer      = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordtype">double</span> *ValueBuffer    = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    su2double *SendBuffer  = <span class="keyword">static_cast&lt;</span>su2double*<span class="keyword">&gt;</span>(buf);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *SendBuffer  = <span class="keyword">static_cast&lt;</span><a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>*<span class="keyword">&gt;</span>(buf);</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordtype">int</span> iVal;</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
@@ -312,7 +312,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;  } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordtype">double</span> *AuxBuffer      = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordtype">double</span> *ValueBuffer    = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    su2double *RecvBuffer  = <span class="keyword">static_cast&lt;</span>su2double*<span class="keyword">&gt;</span>(buf);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *RecvBuffer  = <span class="keyword">static_cast&lt;</span><a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>*<span class="keyword">&gt;</span>(buf);</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordtype">int</span> iVal;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
@@ -337,7 +337,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordtype">double</span> *AuxBuffer      = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="keywordtype">double</span> *ValueBuffer    = <span class="keyword">new</span> <span class="keywordtype">double</span>[count];</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    su2double *SendBuffer  = <span class="keyword">static_cast&lt;</span>su2double*<span class="keyword">&gt;</span>(buf);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *SendBuffer  = <span class="keyword">static_cast&lt;</span><a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>*<span class="keyword">&gt;</span>(buf);</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordtype">int</span> iVal;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
@@ -361,8 +361,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordtype">int</span> rank;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    MPI_Comm_rank(comm, &amp;rank);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    su2double* SendBuffer = <span class="keyword">static_cast&lt;</span> su2double*<span class="keyword">&gt;</span>(sendbuf);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    su2double* RecvBuffer = <span class="keyword">static_cast&lt;</span> su2double*<span class="keyword">&gt;</span>(recvbuf);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>* SendBuffer = <span class="keyword">static_cast&lt;</span> <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>*<span class="keyword">&gt;</span>(sendbuf);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>* RecvBuffer = <span class="keyword">static_cast&lt;</span> <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>*<span class="keyword">&gt;</span>(recvbuf);</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keywordtype">double</span>  *SendAuxBuffer = NULL, *SendValueBuffer = NULL,</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            *RecvAuxBuffer = NULL, *RecvValueBuffer = NULL;</div>
@@ -463,8 +463,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;      RecvAuxBuffer   = <span class="keyword">new</span> <span class="keywordtype">double</span>[recvcnt*size];</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    }</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    su2double *SendBuffer = <span class="keyword">static_cast&lt;</span> su2double* <span class="keyword">&gt;</span>(sendbuf);</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    su2double *RecvBuffer = <span class="keyword">static_cast&lt;</span> su2double* <span class="keyword">&gt;</span>(recvbuf);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *SendBuffer = <span class="keyword">static_cast&lt;</span> <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>* <span class="keyword">&gt;</span>(sendbuf);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *RecvBuffer = <span class="keyword">static_cast&lt;</span> <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>* <span class="keyword">&gt;</span>(recvbuf);</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">for</span> (iVal = 0; iVal &lt; sendcnt; iVal++) {</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;      SendValueBuffer[iVal] = <a class="code" href="namespace_s_u2___t_y_p_e.html#a0ed43473f5a450ce028d088427bf10cb">SU2_TYPE::GetValue</a>(SendBuffer[iVal]);</div>
@@ -511,8 +511,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    RecvValueBuffer = <span class="keyword">new</span> <span class="keywordtype">double</span>[recvcnt*size];</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    RecvAuxBuffer   = <span class="keyword">new</span> <span class="keywordtype">double</span>[recvcnt*size];</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    su2double *SendBuffer =  <span class="keyword">static_cast&lt;</span> su2double* <span class="keyword">&gt;</span>(sendbuf);</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    su2double *RecvBuffer =  <span class="keyword">static_cast&lt;</span> su2double* <span class="keyword">&gt;</span>(recvbuf);</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *SendBuffer =  <span class="keyword">static_cast&lt;</span> <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>* <span class="keyword">&gt;</span>(sendbuf);</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *RecvBuffer =  <span class="keyword">static_cast&lt;</span> <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>* <span class="keyword">&gt;</span>(recvbuf);</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <span class="keywordflow">if</span> (rank == root){</div>
 <div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;      SendValueBuffer = <span class="keyword">new</span> <span class="keywordtype">double</span>[sendcnt];</div>
@@ -555,7 +555,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;</div>
 <div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    <span class="keywordtype">int</span> iVal = 0;</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    su2double *Buffer = <span class="keyword">static_cast&lt;</span> su2double* <span class="keyword">&gt;</span>(buf);</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *Buffer = <span class="keyword">static_cast&lt;</span> <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>* <span class="keyword">&gt;</span>(buf);</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    <span class="keywordflow">if</span> (rank == root) {</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      <span class="keywordflow">for</span> (iVal = 0; iVal &lt; count; iVal++) {</div>
@@ -587,12 +587,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="namespace_s_u2___t_y_p_e_html_a5b23aa0e420ce5ebb65204761bd53687"><div class="ttname"><a href="namespace_s_u2___t_y_p_e.html#a5b23aa0e420ce5ebb65204761bd53687">SU2_TYPE::SetSecondary</a></div><div class="ttdeci">void SetSecondary(su2double &amp;data, const double &amp;val)</div><div class="ttdoc">Set the secondary value of the datatype (needs to be implemented for each new type). </div><div class="ttdef"><b>Definition:</b> <a href="codi__forward__structure_8inl_source.html#l00038">codi_forward_structure.inl:38</a></div></div>
 <div class="ttc" id="namespace_s_u2___t_y_p_e_html_a0ed43473f5a450ce028d088427bf10cb"><div class="ttname"><a href="namespace_s_u2___t_y_p_e.html#a0ed43473f5a450ce028d088427bf10cb">SU2_TYPE::GetValue</a></div><div class="ttdeci">double GetValue(const su2double &amp;data)</div><div class="ttdoc">Get the (primitive) value of the datatype (needs to be implemented for each new type). </div><div class="ttdef"><b>Definition:</b> <a href="codi__forward__structure_8inl_source.html#l00036">codi_forward_structure.inl:36</a></div></div>
+<div class="ttc" id="codi__forward__structure_8hpp_html_a87976ffca908428510c7b3fb2f4c1a80"><div class="ttname"><a href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a></div><div class="ttdeci">codi::RealForward su2double</div><div class="ttdef"><b>Definition:</b> <a href="codi__forward__structure_8hpp_source.html#l00035">codi_forward_structure.hpp:35</a></div></div>
 <div class="ttc" id="namespace_s_u2___t_y_p_e_html_ac556ef5a9d7e22c3313189b5b02d8e15"><div class="ttname"><a href="namespace_s_u2___t_y_p_e.html#ac556ef5a9d7e22c3313189b5b02d8e15">SU2_TYPE::SetValue</a></div><div class="ttdeci">void SetValue(su2double &amp;data, const double &amp;val)</div><div class="ttdoc">Set the (primitive) value of the datatype (needs to be implemented for each new type). </div><div class="ttdef"><b>Definition:</b> <a href="codi__forward__structure_8inl_source.html#l00034">codi_forward_structure.inl:34</a></div></div>
 <div class="ttc" id="namespace_s_u2___t_y_p_e_html_a45dc9c52ea036b9795a43c1cfbc776ee"><div class="ttname"><a href="namespace_s_u2___t_y_p_e.html#a45dc9c52ea036b9795a43c1cfbc776ee">SU2_TYPE::GetSecondary</a></div><div class="ttdeci">double GetSecondary(const su2double &amp;data)</div><div class="ttdoc">Get the secondary value of the datatype (needs to be implemented for each new type). </div><div class="ttdef"><b>Definition:</b> <a href="codi__forward__structure_8inl_source.html#l00040">codi_forward_structure.inl:40</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:50:30 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 18 2016 13:23:02 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

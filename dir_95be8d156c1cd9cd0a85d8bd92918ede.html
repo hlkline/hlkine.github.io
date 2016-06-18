@@ -73,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -92,9 +92,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">include Directory Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Directory dependency graph for include:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Directory dependency graph for include:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="dir_95be8d156c1cd9cd0a85d8bd92918ede_dep.png" border="0" usemap="#dir__95be8d156c1cd9cd0a85d8bd92918ede__dep" alt="include"/></div>
 <map name="dir__95be8d156c1cd9cd0a85d8bd92918ede__dep" id="dir__95be8d156c1cd9cd0a85d8bd92918ede__dep">
 <area shape="rect" id="node2" href="dir_e7b8d830365e9c1fa849717d728b3085.html" title="datatypes" alt="" coords="37,159,113,207"/><area shape="rect" id="edge1-headlabel" href="dir_000003_000004.html" title="2" alt="" coords="80,133,88,148"/><area shape="rect" id="clust2" href="dir_95be8d156c1cd9cd0a85d8bd92918ede.html" alt="" coords="27,52,125,217"/><area shape="rect" id="clust1" href="dir_7014aaeb3815dd683795b2ca1b707e50.html" title="Common" alt="" coords="16,16,136,228"/></map>
@@ -107,9 +109,9 @@ Directories</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
-<tr class="memitem:ad__structure_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>ad_structure.hpp</b> <a href="ad__structure_8hpp_source.html">[code]</a></td></tr>
+<tr class="memitem:ad__structure_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ad__structure_8hpp.html">ad_structure.hpp</a> <a href="ad__structure_8hpp_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad__structure_8inl"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>ad_structure.inl</b> <a href="ad__structure_8inl_source.html">[code]</a></td></tr>
+<tr class="memitem:ad__structure_8inl"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ad__structure_8inl.html">ad_structure.inl</a> <a href="ad__structure_8inl_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:config__structure_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config__structure_8hpp.html">config_structure.hpp</a> <a href="config__structure_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:config__structure_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the information about the definition of the physical problem. The subroutines and functions are in the <em><a class="el" href="config__structure_8cpp.html" title="Main file for managing the config file. ">config_structure.cpp</a></em> file. <br/></td></tr>
@@ -180,7 +182,7 @@ Files</h2></td></tr>
 <tr class="memitem:mpi__structure_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mpi__structure_8hpp.html">mpi_structure.hpp</a> <a href="mpi__structure_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:mpi__structure_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Headers of the mpi interface for generalized datatypes. The subroutines and functions are in the <em><a class="el" href="mpi__structure_8cpp.html" title="Main subroutines for the mpi structures. ">mpi_structure.cpp</a></em> file. <br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:mpi__structure_8inl"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><b>mpi_structure.inl</b> <a href="mpi__structure_8inl_source.html">[code]</a></td></tr>
+<tr class="memitem:mpi__structure_8inl"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mpi__structure_8inl.html">mpi_structure.inl</a> <a href="mpi__structure_8inl_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:option__structure_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="option__structure_8hpp.html">option_structure.hpp</a> <a href="option__structure_8hpp_source.html">[code]</a></td></tr>
 <tr class="memdesc:option__structure_8hpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines classes for referencing options for easy input in <a class="el" href="class_c_config.html" title="Main class for defining the problem; basically this class reads the configuration file...">CConfig</a>. <br/></td></tr>
@@ -201,7 +203,7 @@ Files</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 19:51:00 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 18 2016 13:23:36 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -284,12 +284,12 @@ Functions</h2></td></tr>
  Inlet boundary marker(s) with the following formats, Total Conditions: (inlet marker, total temp, total pressure, flow_direction_x, flow_direction_y, flow_direction_z, ... ) where flow_direction is a unit vector. Mass Flow: (inlet marker, density, velocity magnitude, flow_direction_x, flow_direction_y, flow_direction_z, ... ) where flow_direction is a unit vector.</p>
 <p>MARKER_RIEMANN <br/>
  Riemann boundary marker(s) with the following formats, a unit vector. <br/>
- <a class="el" href="">Options</a>. The variables indicated by the option and the flow direction unit vector must be specified.</p>
+ <a class="el" href="option__structure_8hpp.html#a5d71f391b914291d278ea064ff1d630a">Options</a>. The variables indicated by the option and the flow direction unit vector must be specified.</p>
 <p>MARKER_NRBC <br/>
  Riemann boundary marker(s) with the following formats, a unit vector.</p>
 <p>MIXING_PROCESS_TYPE <br/>
  types of mixing process for averaging quantities at the boundaries. <br/>
- <a class="el" href="">Options</a> Default: AREA_AVERAGE</p>
+ <a class="el" href="option__structure_8hpp.html#accd7998f8859c5a74f927cc327cad111">Options</a> Default: AREA_AVERAGE</p>
 <p>MARKER_MIXINGPLANE <br/>
  Identify the boundaries in which the mixing plane is applied.</p>
 <p>MARKER_MIXINGPLANE <br/>
@@ -315,7 +315,7 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
 <dl class="section user"><dt>CONFIG_CATEGORY: Time-marching </dt><dd></dd></dl>
 <p>UNSTEADY_SIMULATION <br/>
  Steady or unsteady (time stepping or dual time stepping) computation. <br/>
- <a class="el" href="">Options</a>, Default: STEADY</p>
+ <a class="el" href="option__structure_8hpp.html#a67e195cd9919c129a4abecd5dec5d9d0">Options</a>, Default: STEADY</p>
 <p>CFL_NUMBER <br/>
  CFL of the finest grid. <br/>
  Default: 1.25</p>
@@ -354,31 +354,31 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
  Default: 1</p>
 <p>TIME_DISCRE_FLOW <br/>
  Time integration for the flow equations. <br/>
- Options: <a class="el" href="option__structure_8hpp.html#acab70439b6df7aece2ac6bd3bd48bf1c">Time_Int_Map</a>, Default: EULER_IMPLICIT</p>
+<a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options </a>, Default: EULER_IMPLICIT</p>
 <p>TIME_DISCRE_ADJLEVELSET <br/>
  Time integration for the adjoint level set model. <br/>
- <a class="el" href="">Options</a>, Default: EULER_IMPLICIT</p>
+ <a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options</a>, Default: EULER_IMPLICIT</p>
 <p>TIME_DISCRE_ADJFLOW <br/>
  Time integration for the adjoint flow equations. <br/>
- <a class="el" href="">Options</a>, Default: EULER_IMPLICIT</p>
+ <a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options</a>, Default: EULER_IMPLICIT</p>
 <p>TIME_DISCRE_TURB <br/>
  Time integration for the turbulence model. <br/>
- <a class="el" href="">Options</a>, Default: EULER_IMPLICIT</p>
+ <a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options</a>, Default: EULER_IMPLICIT</p>
 <p>TIME_DISCRE_ADJTURB <br/>
  Time integration for the adjoint turbulence model. <br/>
- <a class="el" href="">Options</a>, Default: EULER_IMPLICIT</p>
+ <a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options</a>, Default: EULER_IMPLICIT</p>
 <p>TIME_DISCRE_WAVE <br/>
  Time integration for the wave equations. <br/>
- <a class="el" href="">Options</a>, Default: EULER_IMPLICIT</p>
+ <a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options</a>, Default: EULER_IMPLICIT</p>
 <p>TIME_DISCRE_FEA <br/>
  Time integration for the FEA equations. <br/>
  <a class="el" href="">Options</a>, Default: NEWMARK_IMPLICIT</p>
 <p>TIME_DISCRE_HEAT <br/>
  Time integration for the wave equations. <br/>
- <a class="el" href="">Options</a>, Default: EULER_IMPLICIT</p>
+ <a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options</a>, Default: EULER_IMPLICIT</p>
 <p>TIME_DISCRE_POISSON <br/>
  Time integration for the wave equations. <br/>
- <a class="el" href="">Options</a>, Default: EULER_IMPLICIT</p>
+ <a class="el" href="option__structure_8hpp.html#a1c0aaa963aeef12ad1fd705409815248">Options</a>, Default: EULER_IMPLICIT</p>
 <dl class="section user"><dt>CONFIG_CATEGORY: Linear solver definition </dt><dd></dd></dl>
 <p>LINEAR_SOLVER <br/>
  Linear solver for the implicit, mesh deformation, or discrete adjoint systems <br/>
@@ -472,7 +472,7 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
  Number of multigrid levels (coarse levels). <br/>
  Default: 0</p>
 <p>MGCYCLE<br/>
- Multi-grid cycle. <a class="el" href="">Options</a>. Defualt V_CYCLE</p>
+ Multi-grid cycle. <a class="el" href="option__structure_8hpp.html#a6bfa7c8f0791439d94dd3558e015bc74">Options</a>. Defualt V_CYCLE</p>
 <p>MG_PRE_SMOOTH<br/>
  Multi-grid pre-smoothing level</p>
 <p>MG_POST_SMOOTH<br/>
@@ -532,10 +532,10 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
  Convective numerical method for the adjoint/turbulent problem</p>
 <p>SPATIAL_ORDER_ADJLEVELSET <br/>
  Spatial numerical order integration <br/>
- OPTIONS: See <a class="el" href="option__structure_8hpp.html#a15e4259c31ea8302377f04c1d7d937da">SpatialOrder_Map</a> Default: 2ND_ORDER</p>
+ <a class="el" href="option__structure_8hpp.html#ad0ac8ba71e8483484bc9126958bf4637">Options</a>, Default: 2ND_ORDER</p>
 <p>SLOPE_LIMITER_ADJLEVELTSET <br/>
  Slope limiter<br/>
- OPTIONS: See <a class="el" href="option__structure_8hpp.html#a3ace10a16534067e33a24e327afcf948">Limiter_Map</a> Default VENKATAKRISHNAN</p>
+ <a class="el" href="option__structure_8hpp.html#a1038258a01667f15da82d5ea70fdb56b">Options</a>, Default VENKATAKRISHNAN</p>
 <p>CONV_NUM_METHOD_ADJLEVELSET <br/>
  Convective numerical method for the adjoint levelset problem.</p>
 <p>VISCOUS_LIMITER_FLOW <br/>
@@ -561,7 +561,7 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
  Default: 5</p>
 <p>SENS_SMOOTHING <br/>
  Kind of sensitivity smoothing technique. <br/>
- <a class="el" href="">Options</a>, Default: NO_SMOOTH</p>
+ <a class="el" href="option__structure_8hpp.html#af1fc856942c8b41af45fc2cdf204deff">Options</a>, Default: NO_SMOOTH</p>
 <p>FROZEN_VISC <br/>
  Flag for adjoint problem with/without frozen viscosity. <br/>
  Options: YES, NO. Default: YES</p>
@@ -799,7 +799,7 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
 <p>PHYSICAL_PROBLEM_STRUCTURAL_FSI DESCRIPTION: Physical governing equations <br/>
  Options: NONE (default), FEM_ELASTICITY</p>
 <p>KIND_INTERPOLATION <br/>
- <br/>
+ type of interpolation to use for multi-zone applications. <br/>
  <a class="el" href="option__structure_8hpp.html#a71180aa3a8c6fe328b270ad53281478f">Options</a>, Default: NEAREST_NEIGHBOR</p>
 <dl class="section user"><dt>CONFIG_CATEGORY: Wave solver </dt><dd></dd></dl>
 <dl class="section user"><dt>CONFIG_CATEGORY: Heat solver </dt><dd></dd></dl>
@@ -817,7 +817,7 @@ Format: ( isothermal marker, wall temperature (static), ... )</p>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 18 2016 13:23:13 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jun 18 2016 14:06:29 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -5,7 +5,6 @@ var searchData=
   ['u_5f1',['U_1',['../class_c_numerics.html#a3963bd15d50718f9e7b680f9ca466da9',1,'CNumerics']]],
   ['u_5f2',['U_2',['../class_c_numerics.html#af9786bfbde8d5cb5348731f0b5f62bd6',1,'CNumerics']]],
   ['u_5f3',['U_3',['../class_c_numerics.html#ae96b77b8f20a3a7e82cc64acd771af1b',1,'CNumerics']]],
-  ['u_5ffreestreamnd',['U_FreeStreamND',['../class_c_config.html#a7a093119558a3446bdb000c72ef56817',1,'CConfig']]],
   ['u_5fi',['U_i',['../class_c_numerics.html#a92147b4f7dfc928eef0a275cda3ac23a',1,'CNumerics::U_i()'],['../class_c_upw_c_u_s_p___flow.html#a07ec4fe08eeebae9f2d8eb1aa362f38f',1,'CUpwCUSP_Flow::U_i()'],['../class_c_upw_m_s_w___flow.html#abbd528ae56247a894e3eb3a86364708a',1,'CUpwMSW_Flow::u_i()']]],
   ['u_5fid',['U_id',['../class_c_numerics.html#a9d3904d624cd4df3b519b04c1f851456',1,'CNumerics']]],
   ['u_5fj',['U_j',['../class_c_numerics.html#ad5b272fbe964386a6dcf4bcb115f2bf5',1,'CNumerics::U_j()'],['../class_c_upw_c_u_s_p___flow.html#af0f9c2d23eb36406e5f97e6b331ece57',1,'CUpwCUSP_Flow::U_j()'],['../class_c_upw_m_s_w___flow.html#aa72194df1e4525fae084c1159eecaefe',1,'CUpwMSW_Flow::u_j()']]],
@@ -31,8 +30,8 @@ var searchData=
   ['upperlimit',['upperlimit',['../class_c_turb_solver.html#a454e8f96cb78641daab63d586c882a18',1,'CTurbSolver']]],
   ['upwind',['upwind',['../class_c_option_convect.html#a23bf794bdc76418c73595d2a36d69b0d',1,'COptionConvect']]],
   ['upwind_5fmap',['Upwind_Map',['../option__structure_8hpp.html#a69c0afe1865405530bb0d176030ce15d',1,'option_structure.hpp']]],
-  ['ust_5fi',['Ust_i',['../class_c_upw_m_s_w___flow.html#aec17715559a64f09d80563d83cd79e7b',1,'CUpwMSW_Flow::Ust_i()'],['../class_c_upw_m_s_w___flow.html#a0a7c4a2fd1b830d22041579019c24092',1,'CUpwMSW_Flow::ust_i()']]],
-  ['ust_5fj',['ust_j',['../class_c_upw_m_s_w___flow.html#a45212c8d6e215d6d9f184059b2d84d89',1,'CUpwMSW_Flow::ust_j()'],['../class_c_upw_m_s_w___flow.html#a1c10aac5c734ff81d280ef9921daa6bf',1,'CUpwMSW_Flow::Ust_j()']]],
+  ['ust_5fi',['ust_i',['../class_c_upw_m_s_w___flow.html#a0a7c4a2fd1b830d22041579019c24092',1,'CUpwMSW_Flow::ust_i()'],['../class_c_upw_m_s_w___flow.html#aec17715559a64f09d80563d83cd79e7b',1,'CUpwMSW_Flow::Ust_i()']]],
+  ['ust_5fj',['Ust_j',['../class_c_upw_m_s_w___flow.html#a1c10aac5c734ff81d280ef9921daa6bf',1,'CUpwMSW_Flow::Ust_j()'],['../class_c_upw_m_s_w___flow.html#a45212c8d6e215d6d9f184059b2d84d89',1,'CUpwMSW_Flow::ust_j()']]],
   ['uzeroorder_5fi',['UZeroOrder_i',['../class_c_numerics.html#a59a7970451e203345f83a7f7a635cf4a',1,'CNumerics']]],
   ['uzeroorder_5fj',['UZeroOrder_j',['../class_c_numerics.html#adf9654225e5733e341b5f59112e60ed1',1,'CNumerics']]]
 ];

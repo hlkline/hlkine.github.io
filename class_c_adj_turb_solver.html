@@ -105,16 +105,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <a href="class_c_adj_turb_solver.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for CAdjTurbSolver:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CAdjTurbSolver:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_c_adj_turb_solver__inherit__graph.png" border="0" usemap="#_c_adj_turb_solver_inherit__map" alt="Inheritance graph"/></div>
 <map name="_c_adj_turb_solver_inherit__map" id="_c_adj_turb_solver_inherit__map">
 <area shape="rect" id="node2" href="class_c_solver.html" title="Main class for defining the PDE solution, it requires a child class for each particular solver (Euler..." alt="" coords="27,5,93,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for CAdjTurbSolver:</div>
-<div class="dyncontent">
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for CAdjTurbSolver:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_c_adj_turb_solver__coll__graph.png" border="0" usemap="#_c_adj_turb_solver_coll__map" alt="Collaboration graph"/></div>
 <map name="_c_adj_turb_solver_coll__map" id="_c_adj_turb_solver_coll__map">
 <area shape="rect" id="node2" href="class_c_solver.html" title="Main class for defining the PDE solution, it requires a child class for each particular solver (Euler..." alt="" coords="119,139,185,165"/><area shape="rect" id="node3" href="class_c_variable.html" title="Main class for defining the variables. " alt="" coords="5,5,81,32"/><area shape="rect" id="node4" href="class_c_sys_vector.html" title="Class for holding and manipulating vectors needed by linear solvers. " alt="" coords="107,5,196,32"/><area shape="rect" id="node5" href="class_c_sys_matrix.html" title="Main class for defining sparse matrices&#45;by&#45;blocks with compressed row format. " alt="" coords="234,5,320,32"/></map>
@@ -136,9 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c3d04c60d0a85e386c97c694c7e8dc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_adj_turb_solver.html#a3c3d04c60d0a85e386c97c694c7e8dc6">Set_MPI_Solution_Gradient</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:a3c3d04c60d0a85e386c97c694c7e8dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose the send-receive boundary condition.  <a href="#a3c3d04c60d0a85e386c97c694c7e8dc6">More...</a><br/></td></tr>
 <tr class="separator:a3c3d04c60d0a85e386c97c694c7e8dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f42b4605680244bee96b8e3bf8586f6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_adj_turb_solver.html#a4f42b4605680244bee96b8e3bf8586f6">~CAdjTurbSolver</a> (void)</td></tr>
-<tr class="memdesc:a4f42b4605680244bee96b8e3bf8586f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor of the class.  <a href="#a4f42b4605680244bee96b8e3bf8586f6">More...</a><br/></td></tr>
-<tr class="separator:a4f42b4605680244bee96b8e3bf8586f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae07e15f6fd27eaed2e4e2c43df28021f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_adj_turb_solver.html#ae07e15f6fd27eaed2e4e2c43df28021f">~CAdjTurbSolver</a> (void)</td></tr>
+<tr class="memdesc:ae07e15f6fd27eaed2e4e2c43df28021f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor of the class.  <a href="#ae07e15f6fd27eaed2e4e2c43df28021f">More...</a><br/></td></tr>
+<tr class="separator:ae07e15f6fd27eaed2e4e2c43df28021f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a030c8dae50734deaffc58ea998fc647d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_adj_turb_solver.html#a030c8dae50734deaffc58ea998fc647d">BC_HeatFlux_Wall</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *conv_numerics, <a class="el" href="class_c_numerics.html">CNumerics</a> *visc_numerics, <a class="el" href="class_c_config.html">CConfig</a> *config, unsigned short val_marker)</td></tr>
 <tr class="memdesc:a030c8dae50734deaffc58ea998fc647d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Impose the Navier-Stokes turbulent adjoint boundary condition.  <a href="#a030c8dae50734deaffc58ea998fc647d">More...</a><br/></td></tr>
 <tr class="separator:a030c8dae50734deaffc58ea998fc647d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,9 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf2b799eeb16c796c03e2f8e7a953274 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#abf2b799eeb16c796c03e2f8e7a953274">CSolver</a> (void)</td></tr>
 <tr class="memdesc:abf2b799eeb16c796c03e2f8e7a953274 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#abf2b799eeb16c796c03e2f8e7a953274">More...</a><br/></td></tr>
 <tr class="separator:abf2b799eeb16c796c03e2f8e7a953274 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92f7d0f953498c13a46ff0d415e59c44 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a92f7d0f953498c13a46ff0d415e59c44">~CSolver</a> (void)</td></tr>
-<tr class="memdesc:a92f7d0f953498c13a46ff0d415e59c44 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the class.  <a href="#a92f7d0f953498c13a46ff0d415e59c44">More...</a><br/></td></tr>
-<tr class="separator:a92f7d0f953498c13a46ff0d415e59c44 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8200dba19174590c04043b4e646835 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a5a8200dba19174590c04043b4e646835">~CSolver</a> (void)</td></tr>
+<tr class="memdesc:a5a8200dba19174590c04043b4e646835 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the class.  <a href="#a5a8200dba19174590c04043b4e646835">More...</a><br/></td></tr>
+<tr class="separator:a5a8200dba19174590c04043b4e646835 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f948638416cf63651bfa204f286e00c inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a4f948638416cf63651bfa204f286e00c">SetIterLinSolver</a> (unsigned short val_iterlinsolver)</td></tr>
 <tr class="memdesc:a4f948638416cf63651bfa204f286e00c inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set number of linear solver iterations.  <a href="#a4f948638416cf63651bfa204f286e00c">More...</a><br/></td></tr>
 <tr class="separator:a4f948638416cf63651bfa204f286e00c inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -332,9 +336,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1483925c51418da848b788777cd76987 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a1483925c51418da848b788777cd76987">Set_MPI_Dissipation_Switch</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:a1483925c51418da848b788777cd76987 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a1483925c51418da848b788777cd76987">More...</a><br/></td></tr>
 <tr class="separator:a1483925c51418da848b788777cd76987 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba594b59f62236cf49a10531bcfdc4db inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#aba594b59f62236cf49a10531bcfdc4db">Compute_ComboObj</a> (<a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:aba594b59f62236cf49a10531bcfdc4db inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute weighted-sum "combo" objective output.  <a href="#aba594b59f62236cf49a10531bcfdc4db">More...</a><br/></td></tr>
-<tr class="separator:aba594b59f62236cf49a10531bcfdc4db inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c75b5c6aff17b90bcc8c21151443c70 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a1c75b5c6aff17b90bcc8c21151443c70">BC_Euler_Wall</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config, unsigned short val_marker)</td></tr>
 <tr class="memdesc:a1c75b5c6aff17b90bcc8c21151443c70 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a1c75b5c6aff17b90bcc8c21151443c70">More...</a><br/></td></tr>
 <tr class="separator:a1c75b5c6aff17b90bcc8c21151443c70 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,9 +348,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac9de2e831578f2f55439ff01b566ad87 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ac9de2e831578f2f55439ff01b566ad87">BC_Normal_Displacement</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config, unsigned short val_marker)</td></tr>
 <tr class="memdesc:ac9de2e831578f2f55439ff01b566ad87 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ac9de2e831578f2f55439ff01b566ad87">More...</a><br/></td></tr>
 <tr class="separator:ac9de2e831578f2f55439ff01b566ad87 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8c2c29f2f4d87968698907b79cb003e inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ab8c2c29f2f4d87968698907b79cb003e">BC_Flow_Load</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config, unsigned short val_marker)</td></tr>
-<tr class="memdesc:ab8c2c29f2f4d87968698907b79cb003e inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ab8c2c29f2f4d87968698907b79cb003e">More...</a><br/></td></tr>
-<tr class="separator:ab8c2c29f2f4d87968698907b79cb003e inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1911cac2d686691b648ccef6ee3312f inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ac1911cac2d686691b648ccef6ee3312f">BC_Normal_Load</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config, unsigned short val_marker)</td></tr>
 <tr class="memdesc:ac1911cac2d686691b648ccef6ee3312f inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ac1911cac2d686691b648ccef6ee3312f">More...</a><br/></td></tr>
 <tr class="separator:ac1911cac2d686691b648ccef6ee3312f inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -740,9 +738,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ee25e0c384db8e289a29aed1d75019c inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a4ee25e0c384db8e289a29aed1d75019c">GetCDrag_Visc</a> (unsigned short val_marker)</td></tr>
 <tr class="memdesc:a4ee25e0c384db8e289a29aed1d75019c inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a4ee25e0c384db8e289a29aed1d75019c">More...</a><br/></td></tr>
 <tr class="separator:a4ee25e0c384db8e289a29aed1d75019c inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a234f0c31ae1324c6867cbdcb7a787831 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a234f0c31ae1324c6867cbdcb7a787831">GetTotal_ComboObj</a> (void)</td></tr>
-<tr class="memdesc:a234f0c31ae1324c6867cbdcb7a787831 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide the total "combo" objective (weighted sum of other values).  <a href="#a234f0c31ae1324c6867cbdcb7a787831">More...</a><br/></td></tr>
-<tr class="separator:a234f0c31ae1324c6867cbdcb7a787831 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae44d67f6782e0e65972310d4e2066e3b inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ae44d67f6782e0e65972310d4e2066e3b">GetTotal_CLift</a> (void)</td></tr>
 <tr class="memdesc:ae44d67f6782e0e65972310d4e2066e3b inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ae44d67f6782e0e65972310d4e2066e3b">More...</a><br/></td></tr>
 <tr class="separator:ae44d67f6782e0e65972310d4e2066e3b inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -791,9 +786,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a3f8be6e5be6fd5cf8b8b63cb8257d7 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a4a3f8be6e5be6fd5cf8b8b63cb8257d7">GetTotal_CNearFieldOF</a> (void)</td></tr>
 <tr class="memdesc:a4a3f8be6e5be6fd5cf8b8b63cb8257d7 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a4a3f8be6e5be6fd5cf8b8b63cb8257d7">More...</a><br/></td></tr>
 <tr class="separator:a4a3f8be6e5be6fd5cf8b8b63cb8257d7 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10d46c06935e9e8124f3a5f13e77c431 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a10d46c06935e9e8124f3a5f13e77c431">AddTotal_ComboObj</a> (<a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_obj)</td></tr>
-<tr class="memdesc:a10d46c06935e9e8124f3a5f13e77c431 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add to the value of the total 'combo' objective.  <a href="#a10d46c06935e9e8124f3a5f13e77c431">More...</a><br/></td></tr>
-<tr class="separator:a10d46c06935e9e8124f3a5f13e77c431 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5441ad3a55e8e1a5b974ca499d9c3aeb inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a5441ad3a55e8e1a5b974ca499d9c3aeb">SetTotal_CEquivArea</a> (<a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_cequivarea)</td></tr>
 <tr class="memdesc:a5441ad3a55e8e1a5b974ca499d9c3aeb inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a5441ad3a55e8e1a5b974ca499d9c3aeb">More...</a><br/></td></tr>
 <tr class="separator:a5441ad3a55e8e1a5b974ca499d9c3aeb inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -890,9 +882,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad25c13b6587f8a1a71f84a37fdb5b213 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ad25c13b6587f8a1a71f84a37fdb5b213">GetCharacPrimVar</a> (unsigned short val_marker, unsigned long val_vertex)</td></tr>
 <tr class="memdesc:ad25c13b6587f8a1a71f84a37fdb5b213 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ad25c13b6587f8a1a71f84a37fdb5b213">More...</a><br/></td></tr>
 <tr class="separator:ad25c13b6587f8a1a71f84a37fdb5b213 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98e10fe08739387ecc86a10b7706d3f6 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a98e10fe08739387ecc86a10b7706d3f6">GetCSkinFriction</a> (unsigned short val_marker, unsigned long val_vertex)</td></tr>
-<tr class="memdesc:a98e10fe08739387ecc86a10b7706d3f6 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a98e10fe08739387ecc86a10b7706d3f6">More...</a><br/></td></tr>
-<tr class="separator:a98e10fe08739387ecc86a10b7706d3f6 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f257e0506348d9c9e7b7f98d683cf1e inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a0f257e0506348d9c9e7b7f98d683cf1e">GetCSkinFriction</a> (unsigned short val_marker, unsigned long val_vertex, unsigned short val_dim)</td></tr>
+<tr class="memdesc:a0f257e0506348d9c9e7b7f98d683cf1e inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a0f257e0506348d9c9e7b7f98d683cf1e">More...</a><br/></td></tr>
+<tr class="separator:a0f257e0506348d9c9e7b7f98d683cf1e inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e7a9b1a990f63294b7923396cc8924a inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a4e7a9b1a990f63294b7923396cc8924a">GetHeatFlux</a> (unsigned short val_marker, unsigned long val_vertex)</td></tr>
 <tr class="memdesc:a4e7a9b1a990f63294b7923396cc8924a inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a4e7a9b1a990f63294b7923396cc8924a">More...</a><br/></td></tr>
 <tr class="separator:a4e7a9b1a990f63294b7923396cc8924a inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1037,9 +1029,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab869cadfb548589c83cdaf5c5c6bb9ef inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ab869cadfb548589c83cdaf5c5c6bb9ef">SetOneD_FluxAvgEntalpy</a> (<a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> EnthalpyRef)</td></tr>
 <tr class="memdesc:ab869cadfb548589c83cdaf5c5c6bb9ef inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member. \ Set the flux averaged enthalpy at a marker. = \( \frac{ \int(rho*u*h dA) }{ \int(rho *u *dA ) }\).  <a href="#ab869cadfb548589c83cdaf5c5c6bb9ef">More...</a><br/></td></tr>
 <tr class="separator:ab869cadfb548589c83cdaf5c5c6bb9ef inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b56cac1dae851a3c28936a563825a39 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a1b56cac1dae851a3c28936a563825a39">GetSurface_Pressure</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:a1b56cac1dae851a3c28936a563825a39 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a1b56cac1dae851a3c28936a563825a39">More...</a><br/></td></tr>
-<tr class="separator:a1b56cac1dae851a3c28936a563825a39 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28e6316d13feb02b192ebce2a2f61fde inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a28e6316d13feb02b192ebce2a2f61fde">SetFEA_Load</a> (<a class="el" href="class_c_solver.html">CSolver</a> ***flow_solution, <a class="el" href="class_c_geometry.html">CGeometry</a> **fea_geometry, <a class="el" href="class_c_geometry.html">CGeometry</a> **flow_geometry, <a class="el" href="class_c_config.html">CConfig</a> *fea_config, <a class="el" href="class_c_config.html">CConfig</a> *flow_config, <a class="el" href="class_c_numerics.html">CNumerics</a> *fea_numerics)</td></tr>
 <tr class="memdesc:a28e6316d13feb02b192ebce2a2f61fde inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a28e6316d13feb02b192ebce2a2f61fde">More...</a><br/></td></tr>
 <tr class="separator:a28e6316d13feb02b192ebce2a2f61fde inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1061,9 +1050,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9dac1bfe0ec20e45c9483480e37498c inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ad9dac1bfe0ec20e45c9483480e37498c">SetFlow_Displacement_Int</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> **flow_geometry, <a class="el" href="class_c_volumetric_movement.html">CVolumetricMovement</a> *flow_grid_movement, <a class="el" href="class_c_config.html">CConfig</a> *flow_config, <a class="el" href="class_c_config.html">CConfig</a> *fea_config, <a class="el" href="class_c_geometry.html">CGeometry</a> **fea_geometry, <a class="el" href="class_c_solver.html">CSolver</a> ***fea_solution)</td></tr>
 <tr class="memdesc:ad9dac1bfe0ec20e45c9483480e37498c inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ad9dac1bfe0ec20e45c9483480e37498c">More...</a><br/></td></tr>
 <tr class="separator:ad9dac1bfe0ec20e45c9483480e37498c inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ed51cf0451417ad1b28ea1e62c4408d inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a9ed51cf0451417ad1b28ea1e62c4408d">SetStruct_Displacement</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> **fea_geometry, <a class="el" href="class_c_config.html">CConfig</a> *fea_config, <a class="el" href="class_c_solver.html">CSolver</a> ***fea_solution)</td></tr>
-<tr class="memdesc:a9ed51cf0451417ad1b28ea1e62c4408d inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a9ed51cf0451417ad1b28ea1e62c4408d">More...</a><br/></td></tr>
-<tr class="separator:a9ed51cf0451417ad1b28ea1e62c4408d inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27c54f042d1c0117ab1e6e5c7b56e068 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a27c54f042d1c0117ab1e6e5c7b56e068">PredictStruct_Displacement</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> **fea_geometry, <a class="el" href="class_c_config.html">CConfig</a> *fea_config, <a class="el" href="class_c_solver.html">CSolver</a> ***fea_solution)</td></tr>
 <tr class="memdesc:a27c54f042d1c0117ab1e6e5c7b56e068 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a27c54f042d1c0117ab1e6e5c7b56e068">More...</a><br/></td></tr>
 <tr class="separator:a27c54f042d1c0117ab1e6e5c7b56e068 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1135,27 +1121,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aefa502a3c7accab247563d7c2032c886 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#aefa502a3c7accab247563d7c2032c886">GetFSI_ConvValue</a> (unsigned short val_index)</td></tr>
 <tr class="memdesc:aefa502a3c7accab247563d7c2032c886 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#aefa502a3c7accab247563d7c2032c886">More...</a><br/></td></tr>
 <tr class="separator:aefa502a3c7accab247563d7c2032c886 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bf7dbbb15d0bf8e3706c11927b3ac3a inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a6bf7dbbb15d0bf8e3706c11927b3ac3a">Compute_StiffMatrix</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:a6bf7dbbb15d0bf8e3706c11927b3ac3a inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a6bf7dbbb15d0bf8e3706c11927b3ac3a">More...</a><br/></td></tr>
-<tr class="separator:a6bf7dbbb15d0bf8e3706c11927b3ac3a inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fd65b99b8d9943c2954e063a4ed0646 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a4fd65b99b8d9943c2954e063a4ed0646">Compute_StiffMatrix_NodalStressRes</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:a4fd65b99b8d9943c2954e063a4ed0646 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a4fd65b99b8d9943c2954e063a4ed0646">More...</a><br/></td></tr>
-<tr class="separator:a4fd65b99b8d9943c2954e063a4ed0646 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d0956d9122188514cc14d4fa1fa7ba9 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a2d0956d9122188514cc14d4fa1fa7ba9">Compute_MassMatrix</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:a2d0956d9122188514cc14d4fa1fa7ba9 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a2d0956d9122188514cc14d4fa1fa7ba9">More...</a><br/></td></tr>
-<tr class="separator:a2d0956d9122188514cc14d4fa1fa7ba9 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cf0780faaabb17a5a6efd7cc8eed1d2 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a1cf0780faaabb17a5a6efd7cc8eed1d2">Compute_NodalStressRes</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:a1cf0780faaabb17a5a6efd7cc8eed1d2 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a1cf0780faaabb17a5a6efd7cc8eed1d2">More...</a><br/></td></tr>
-<tr class="separator:a1cf0780faaabb17a5a6efd7cc8eed1d2 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd69ed83557c1447eef432fc2c31905a inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#afd69ed83557c1447eef432fc2c31905a">Compute_NodalStress</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:afd69ed83557c1447eef432fc2c31905a inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#afd69ed83557c1447eef432fc2c31905a">More...</a><br/></td></tr>
-<tr class="separator:afd69ed83557c1447eef432fc2c31905a inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb13a6a0a51ac08d647880f2c59e808 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#afcb13a6a0a51ac08d647880f2c59e808">Compute_StiffMassMatrix</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:afcb13a6a0a51ac08d647880f2c59e808 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#afcb13a6a0a51ac08d647880f2c59e808">More...</a><br/></td></tr>
-<tr class="separator:afcb13a6a0a51ac08d647880f2c59e808 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac91051c1cfcb8a488141824ccbf6751 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#aac91051c1cfcb8a488141824ccbf6751">Compute_StiffMassDampMatrix</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> *numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:aac91051c1cfcb8a488141824ccbf6751 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#aac91051c1cfcb8a488141824ccbf6751">More...</a><br/></td></tr>
-<tr class="separator:aac91051c1cfcb8a488141824ccbf6751 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5eebb7fd9bd1fcadc260bfd6fdb6adf inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#aa5eebb7fd9bd1fcadc260bfd6fdb6adf">Set_Prestretch</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:aa5eebb7fd9bd1fcadc260bfd6fdb6adf inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#aa5eebb7fd9bd1fcadc260bfd6fdb6adf">More...</a><br/></td></tr>
+<tr class="separator:aa5eebb7fd9bd1fcadc260bfd6fdb6adf inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29db63d8ac057d1d256129c32b83bfc0 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a29db63d8ac057d1d256129c32b83bfc0">Compute_StiffMatrix</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> **numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:a29db63d8ac057d1d256129c32b83bfc0 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a29db63d8ac057d1d256129c32b83bfc0">More...</a><br/></td></tr>
+<tr class="separator:a29db63d8ac057d1d256129c32b83bfc0 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac448199430f358f165eafc6dbb496011 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ac448199430f358f165eafc6dbb496011">Compute_StiffMatrix_NodalStressRes</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> **numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:ac448199430f358f165eafc6dbb496011 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ac448199430f358f165eafc6dbb496011">More...</a><br/></td></tr>
+<tr class="separator:ac448199430f358f165eafc6dbb496011 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e88dce65d3889106b49c9cb937ee9f3 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a3e88dce65d3889106b49c9cb937ee9f3">Compute_MassMatrix</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> **numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:a3e88dce65d3889106b49c9cb937ee9f3 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a3e88dce65d3889106b49c9cb937ee9f3">More...</a><br/></td></tr>
+<tr class="separator:a3e88dce65d3889106b49c9cb937ee9f3 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dfd0de1a94f63d176f04f73ce0f0b06 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a0dfd0de1a94f63d176f04f73ce0f0b06">Compute_NodalStressRes</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> **numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:a0dfd0de1a94f63d176f04f73ce0f0b06 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a0dfd0de1a94f63d176f04f73ce0f0b06">More...</a><br/></td></tr>
+<tr class="separator:a0dfd0de1a94f63d176f04f73ce0f0b06 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a16238db90385c0d66f2e1a603d67fb inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a9a16238db90385c0d66f2e1a603d67fb">Compute_NodalStress</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> **numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:a9a16238db90385c0d66f2e1a603d67fb inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a9a16238db90385c0d66f2e1a603d67fb">More...</a><br/></td></tr>
+<tr class="separator:a9a16238db90385c0d66f2e1a603d67fb inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cfaaeaef16ebddf0031ac01d33a7144 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a3cfaaeaef16ebddf0031ac01d33a7144">Compute_DeadLoad</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_numerics.html">CNumerics</a> **numerics, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:a3cfaaeaef16ebddf0031ac01d33a7144 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a3cfaaeaef16ebddf0031ac01d33a7144">More...</a><br/></td></tr>
+<tr class="separator:a3cfaaeaef16ebddf0031ac01d33a7144 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a701f90f85d9f2ccc8842e6c1f1932217 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a701f90f85d9f2ccc8842e6c1f1932217">Solve_System</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_solver.html">CSolver</a> **solver_container, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:a701f90f85d9f2ccc8842e6c1f1932217 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a701f90f85d9f2ccc8842e6c1f1932217">More...</a><br/></td></tr>
 <tr class="separator:a701f90f85d9f2ccc8842e6c1f1932217 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1165,9 +1151,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af8ae2919a60fa92379d2a9f0873ad117 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#af8ae2919a60fa92379d2a9f0873ad117">Compute_IntegrationConstants</a> (<a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:af8ae2919a60fa92379d2a9f0873ad117 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#af8ae2919a60fa92379d2a9f0873ad117">More...</a><br/></td></tr>
 <tr class="separator:af8ae2919a60fa92379d2a9f0873ad117 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0bb5be9416af77fdf86485b7dff748f inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#ac0bb5be9416af77fdf86485b7dff748f">SetSolution_time_n</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
-<tr class="memdesc:ac0bb5be9416af77fdf86485b7dff748f inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#ac0bb5be9416af77fdf86485b7dff748f">More...</a><br/></td></tr>
-<tr class="separator:ac0bb5be9416af77fdf86485b7dff748f inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2ce000ca52a117db996a9579c060c9 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#abb2ce000ca52a117db996a9579c060c9">GetWAitken_Dyn</a> (void)</td></tr>
 <tr class="memdesc:abb2ce000ca52a117db996a9579c060c9 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#abb2ce000ca52a117db996a9579c060c9">More...</a><br/></td></tr>
 <tr class="separator:abb2ce000ca52a117db996a9579c060c9 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1201,6 +1184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a679c7c6937c728fb502fa1d725947379 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a679c7c6937c728fb502fa1d725947379">ExtractAdjoint_Variables</a> (<a class="el" href="class_c_geometry.html">CGeometry</a> *geometry, <a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
 <tr class="memdesc:a679c7c6937c728fb502fa1d725947379 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a679c7c6937c728fb502fa1d725947379">More...</a><br/></td></tr>
 <tr class="separator:a679c7c6937c728fb502fa1d725947379 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bc8bb39473a7a584e76067e86ed90d3 inherit pub_methods_class_c_solver"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_solver.html#a4bc8bb39473a7a584e76067e86ed90d3">SetFreeStream_Solution</a> (<a class="el" href="class_c_config.html">CConfig</a> *config)</td></tr>
+<tr class="memdesc:a4bc8bb39473a7a584e76067e86ed90d3 inherit pub_methods_class_c_solver"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual member.  <a href="#a4bc8bb39473a7a584e76067e86ed90d3">More...</a><br/></td></tr>
+<tr class="separator:a4bc8bb39473a7a584e76067e86ed90d3 inherit pub_methods_class_c_solver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -1374,9 +1360,9 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Main class for defining the adjoint turbulence model solver. </p>
 <dl class="section author"><dt>Author</dt><dd>F. Palacios, A. Bueno. </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>4.1.0 "Cardinal" </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>4.2.0 "Cardinal" </dd></dl>
 
-<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06240">6240</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06196">6196</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af7a7064eb90870d7adc7e537df73730e"></a>
 <div class="memitem">
@@ -1393,6 +1379,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default constructor of the class. </p>
+
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00034">34</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1434,9 +1422,11 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00036">36</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a4f42b4605680244bee96b8e3bf8586f6"></a>
+<a class="anchor" id="ae07e15f6fd27eaed2e4e2c43df28021f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1444,7 +1434,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual CAdjTurbSolver::~CAdjTurbSolver </td>
+          <td class="memname">CAdjTurbSolver::~CAdjTurbSolver </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1459,6 +1449,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default destructor of the class. </p>
+
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00198">198</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1534,6 +1526,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#aa8ba00c4afac3dd793da715fac96145a">CSolver</a>.</p>
 
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00521">521</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a030c8dae50734deaffc58ea998fc647d"></a>
@@ -1606,6 +1600,8 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#ac10d5a892e16dd13a33e6e90530b8f79">CSolver</a>.</p>
+
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00473">473</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1680,6 +1676,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#aa9eb6016e4a2d1d254356ab17411f8d0">CSolver</a>.</p>
 
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00497">497</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2c2657818c6ecfb7984c70bf079accd3"></a>
@@ -1731,6 +1729,8 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#a9fdb7cf75cbc4dfde5e2a1d28835fd66">CSolver</a>.</p>
+
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00800">800</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1811,6 +1811,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#a5c530a5946aeeceb039c841115dd4b9b">CSolver</a>.</p>
 
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00548">548</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a2c3429f4b6f4b0d014f2f59d525bb952"></a>
@@ -1855,6 +1857,8 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#ac25a16cb69ee66bca6048336dedbb4cd">CSolver</a>.</p>
+
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00201">201</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1901,6 +1905,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#ac231a21fb2a5c57d1a3d85adfca0fa03">CSolver</a>.</p>
 
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00351">351</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a915098d829ae85b6f08a954493661841"></a>
@@ -1945,6 +1951,8 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#ac1d737cd758a27bc40fa3b2f82d72a0c">CSolver</a>.</p>
+
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00276">276</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
 
 </div>
 </div>
@@ -2019,6 +2027,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#abbd73cae357801fa36ba6d4956f74f88">CSolver</a>.</p>
 
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00717">717</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="ad7f35bfeec670ed4357083ecdada59f5"></a>
@@ -2084,6 +2094,8 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#a460197a8e97680a18ba729a7d3fdae68">CSolver</a>.</p>
+
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00572">572</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
 
 </div>
 </div>
@@ -2158,6 +2170,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_c_solver.html#ac2cfc7eff46e24ddb6dcc923121c38b6">CSolver</a>.</p>
 
+<p>Definition at line <a class="el" href="solver__adjoint__turbulent_8cpp_source.html#l00671">671</a> of file <a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -2181,7 +2195,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Store the flow solution at point i. </p>
 
-<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06242">6242</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06198">6198</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
 
 </div>
 </div>
@@ -2205,7 +2219,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Store the flow solution at point j. </p>
 
-<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06242">6242</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06198">6198</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
 
 </div>
 </div>
@@ -2229,7 +2243,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Fluid's Gamma constant (ratio of specific heats). </p>
 
-<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06246">6246</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06202">6202</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
 
 </div>
 </div>
@@ -2253,7 +2267,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Fluids's Gamma - 1.0 . </p>
 
-<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06247">6247</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06203">6203</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
 
 </div>
 </div>
@@ -2277,17 +2291,18 @@ Additional Inherited Members</h2></td></tr>
 
 <p>PsiNu variable at the infinity. </p>
 
-<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06242">6242</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
+<p>Definition at line <a class="el" href="solver__structure_8hpp_source.html#l06198">6198</a> of file <a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="solver__structure_8hpp_source.html">solver_structure.hpp</a></li>
+<li><a class="el" href="solver__adjoint__turbulent_8cpp_source.html">solver_adjoint_turbulent.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 13:54:21 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jun 19 2016 13:20:34 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,16 +1,4 @@
 <map id="solver_structure.inl" name="solver_structure.inl">
-<<<<<<< HEAD
-<area shape="rect" id="node2" href="$solver__structure_8hpp.html" title="Headers of the main subroutines for solving partial differential equations. The subroutines and funct..." alt="" coords="365,80,500,107"/>
-<area shape="rect" id="node3" href="$_s_u2___d_e_f_8hpp.html" title="Headers of the main subroutines of the code SU2_DEF. The subroutines and functions are in the SU2_DEF..." alt="" coords="43,304,145,331"/>
-<area shape="rect" id="node5" href="$output__structure_8hpp.html" title="Headers of the main subroutines for generating the file outputs. The subroutines and functions are in..." alt="" coords="216,229,355,256"/>
-<area shape="rect" id="node6" href="$iteration__structure_8hpp.html" title="Headers of the main subroutines used by SU2_CFD. The subroutines and functions are in the definition_..." alt="" coords="323,304,471,331"/>
-<area shape="rect" id="node7" href="$driver__structure_8hpp.html" title="Headers of the main subroutines for driving single or multi&#45;zone problems. The subroutines and functi..." alt="" coords="486,379,620,405"/>
-<area shape="rect" id="node8" href="$definition__structure_8hpp.html" title="Headers of the main subroutines used by SU2_CFD. The subroutines and functions are in the definition_..." alt="" coords="528,453,681,480"/>
-<area shape="rect" id="node9" href="$_s_u2___c_f_d_8hpp.html" title="Headers of the main subroutines of the code SU2_CFD. The subroutines and functions are in the SU2_CFD..." alt="" coords="439,528,543,555"/>
-<area shape="rect" id="node10" href="$integration__structure_8hpp.html" title="Headers of the main subroutines for space and time integration. The subroutines and functions are in ..." alt="" coords="496,155,659,181"/>
-<area shape="rect" id="node11" href="$transfer__structure_8hpp.html" title="Headers of the transfer structure The subroutines and functions are in the transfer_structure.cpp and transfer_physics.cpp files. " alt="" coords="648,229,795,256"/>
-<area shape="rect" id="node4" href="$_s_u2___d_e_f_8cpp.html" title="Main file of Mesh Deformation Code (SU2_DEF). " alt="" coords="43,379,145,405"/>
-=======
 <area shape="rect" id="node2" href="$solver__structure_8hpp.html" title="Headers of the main subroutines for solving partial differential equations. The subroutines and funct..." alt="" coords="2093,80,2228,107"/>
 <area shape="rect" id="node3" href="$_s_u2___d_e_f_8hpp.html" title="Headers of the main subroutines of the code SU2_DEF. The subroutines and functions are in the SU2_DEF..." alt="" coords="94,304,196,331"/>
 <area shape="rect" id="node5" href="$output__structure_8hpp.html" title="Headers of the main subroutines for generating the file outputs. The subroutines and functions are in..." alt="" coords="853,229,992,256"/>
@@ -50,5 +38,4 @@
 <area shape="rect" id="node24" href="$integration__time_8cpp.html" title="Time dependent numerical methods. " alt="" coords="1203,229,1341,256"/>
 <area shape="rect" id="node26" href="$transfer__physics_8cpp.html" title="transfer_physics.cpp" alt="" coords="1843,304,1981,331"/>
 <area shape="rect" id="node27" href="$transfer__structure_8cpp.html" title="Main subroutines for physics of the information transfer between zones. " alt="" coords="2005,304,2152,331"/>
->>>>>>> gh-pages
 </map>

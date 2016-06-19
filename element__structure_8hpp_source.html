@@ -134,210 +134,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="class_c_element.html#afb1fc7ce03bed8092a1b57dc7931cfdc">   73</a></span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> **<a class="code" href="class_c_element.html#afb1fc7ce03bed8092a1b57dc7931cfdc">Ks_ab</a>;                                                                                              </div>
 <div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_c_element.html#ab886c32bdfbfbc994370e0afc2147c8e">   74</a></span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> ***<a class="code" href="class_c_element.html#ab886c32bdfbfbc994370e0afc2147c8e">Kk_ab</a>;                                                                             </div>
 <div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="class_c_element.html#aec9681b2bfe75c489c63dd79063a7d31">   75</a></span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> **<a class="code" href="class_c_element.html#aec9681b2bfe75c489c63dd79063a7d31">Kt_a</a>;                                                                                               </div>
-<<<<<<< HEAD
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="class_c_element.html#ad9c73eda27830c9118f408ef3c226b9c">   76</a></span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> <a class="code" href="class_c_element.html#ad9c73eda27830c9118f408ef3c226b9c">el_Pressure</a>;                                                                          </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <a class="code" href="class_c_element.html">CElement</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                <a class="code" href="class_c_element.html">CElement</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> val_nDim, <a class="code" href="class_c_config.html">CConfig</a> *config);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keyword">virtual</span> ~<a class="code" href="class_c_element.html">CElement</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> GetnNodes(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> GetnGaussPoints(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> GetnGaussPointsP(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                <span class="keywordtype">void</span> SetRef_Coord(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_CoordRef, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iDim);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <span class="keywordtype">void</span> SetCurr_Coord(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_CoordCurr, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iDim);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <span class="keywordtype">void</span> SetElement_Pressure(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_ElPressure);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetRef_Coord(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iDim);</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetCurr_Coord(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iDim);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetWeight(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetWeight_P(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGaussP);</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetJ_X(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetJ_x(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss);</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetJ_X_P(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetJ_x_P(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetElement_Pressure(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                <span class="keywordtype">void</span> Add_Mab(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_Mab, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                <span class="keywordtype">void</span> Add_Kab(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> **val_Kab, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                <span class="keywordtype">void</span> Add_Kab_T(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> **val_Kab, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="keywordtype">void</span> Add_Ks_ab(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_Ks_ab, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                <span class="keywordtype">void</span> Add_Kt_a(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *val_Kt_a, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                <span class="keywordtype">void</span> Set_Kk_ab(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> **val_Kk_ab, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                <span class="keywordtype">void</span> clearElement(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                <span class="keywordtype">void</span> clearStress(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> Get_Mab(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *Get_Kab(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> Get_Ks_ab(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *Get_Kk_ab(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeB);</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> *Get_Kt_a(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> nodeA);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetNi(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss);</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetGradNi_X(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iDim);</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetGradNi_x(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iDim);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetGradNi_x_P(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGaussP, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iDim);</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> GetNi_Extrap(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iGauss);</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                <span class="keywordtype">void</span> Add_NodalStress(<a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> val_Stress, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iVar);</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> Get_NodalStress(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iNode, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> iVar);</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> ComputeGrad_Linear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> ComputeGrad_NonLinear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> ComputeGrad_Pressure(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;};</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
-<div class="line"><a name="l00384"></a><span class="lineno"><a class="line" href="class_c_t_r_i_a1.html">  384</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_t_r_i_a1.html">CTRIA1</a> : <span class="keyword">public</span> <a class="code" href="class_c_element.html">CElement</a> {</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                <a class="code" href="class_c_t_r_i_a1.html">CTRIA1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                <a class="code" href="class_c_t_r_i_a1.html">CTRIA1</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> val_nDim, <a class="code" href="class_c_config.html">CConfig</a> *config);</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                ~<a class="code" href="class_c_t_r_i_a1.html">CTRIA1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_Linear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_NonLinear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;};</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;</div>
-<div class="line"><a name="l00432"></a><span class="lineno"><a class="line" href="class_c_q_u_a_d4.html">  432</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_q_u_a_d4.html">CQUAD4</a> : <span class="keyword">public</span> <a class="code" href="class_c_element.html">CElement</a> {</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;                <a class="code" href="class_c_q_u_a_d4.html">CQUAD4</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;                <a class="code" href="class_c_q_u_a_d4.html">CQUAD4</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> val_nDim, <a class="code" href="class_c_config.html">CConfig</a> *config);</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                ~<a class="code" href="class_c_q_u_a_d4.html">CQUAD4</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_Linear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_NonLinear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> ComputeGrad_Pressure(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;};</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;</div>
-<div class="line"><a name="l00485"></a><span class="lineno"><a class="line" href="class_c_q_u_a_d4_p1.html">  485</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_q_u_a_d4_p1.html">CQUAD4P1</a> : <span class="keyword">public</span> <a class="code" href="class_c_q_u_a_d4.html">CQUAD4</a> {</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                <a class="code" href="class_c_q_u_a_d4_p1.html">CQUAD4P1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                <a class="code" href="class_c_q_u_a_d4_p1.html">CQUAD4P1</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> val_nDim, <a class="code" href="class_c_config.html">CConfig</a> *config);</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;                ~<a class="code" href="class_c_q_u_a_d4_p1.html">CQUAD4P1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_Pressure(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;};</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;</div>
-<div class="line"><a name="l00526"></a><span class="lineno"><a class="line" href="class_c_t_e_t_r_a1.html">  526</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_t_e_t_r_a1.html">CTETRA1</a> : <span class="keyword">public</span> <a class="code" href="class_c_element.html">CElement</a> {</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;                <a class="code" href="class_c_t_e_t_r_a1.html">CTETRA1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                <a class="code" href="class_c_t_e_t_r_a1.html">CTETRA1</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> val_nDim, <a class="code" href="class_c_config.html">CConfig</a> *config);</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;                ~<a class="code" href="class_c_t_e_t_r_a1.html">CTETRA1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_Linear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_NonLinear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;</div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;};</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;</div>
-<div class="line"><a name="l00573"></a><span class="lineno"><a class="line" href="class_c_h_e_x_a8.html">  573</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_h_e_x_a8.html">CHEXA8</a> : <span class="keyword">public</span> <a class="code" href="class_c_element.html">CElement</a> {</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;                <a class="code" href="class_c_h_e_x_a8.html">CHEXA8</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;                <a class="code" href="class_c_h_e_x_a8.html">CHEXA8</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> val_nDim, <a class="code" href="class_c_config.html">CConfig</a> *config);</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;</div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;                ~<a class="code" href="class_c_h_e_x_a8.html">CHEXA8</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_Linear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_NonLinear(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> ComputeGrad_Pressure(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;};</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
-<div class="line"><a name="l00626"></a><span class="lineno"><a class="line" href="class_c_h_e_x_a8_p1.html">  626</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_h_e_x_a8_p1.html">CHEXA8P1</a> : <span class="keyword">public</span> <a class="code" href="class_c_h_e_x_a8.html">CHEXA8</a> {</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;                <a class="code" href="class_c_h_e_x_a8_p1.html">CHEXA8P1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;                <a class="code" href="class_c_h_e_x_a8_p1.html">CHEXA8P1</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> val_nDim, <a class="code" href="class_c_config.html">CConfig</a> *config);</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                ~<a class="code" href="class_c_h_e_x_a8_p1.html">CHEXA8P1</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;                <span class="keywordtype">void</span> ComputeGrad_Pressure(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;};</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="element__structure_8inl.html">element_structure.inl</a>&quot;</span></div>
-=======
 <div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="class_c_element.html#a2e8894a75d327ec8d91ea0d6fc27eac5">   76</a></span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> **<a class="code" href="class_c_element.html#a2e8894a75d327ec8d91ea0d6fc27eac5">FDL_a</a>;                                                                                              </div>
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="class_c_element.html#ad9c73eda27830c9118f408ef3c226b9c">   77</a></span>&#160;                <a class="code" href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a> <a class="code" href="class_c_element.html#ad9c73eda27830c9118f408ef3c226b9c">el_Pressure</a>;                                                                          </div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">public</span>:</div>
@@ -564,18 +360,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;</div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="element__structure_8inl.html">element_structure.inl</a>&quot;</span></div>
->>>>>>> gh-pages
 <div class="ttc" id="class_c_element_html_acf4c7b26f10c0fce4942e539039d8da7"><div class="ttname"><a href="class_c_element.html#acf4c7b26f10c0fce4942e539039d8da7">CElement::GaussWeightP</a></div><div class="ttdeci">su2double * GaussWeightP</div><div class="ttdoc">Weight of the Gaussian Points for the pressure subintegration. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00065">element_structure.hpp:65</a></div></div>
 <div class="ttc" id="geometry__structure_8hpp_html"><div class="ttname"><a href="geometry__structure_8hpp.html">geometry_structure.hpp</a></div><div class="ttdoc">Headers of the main subroutines for creating the geometrical structure. The subroutines and functions...</div></div>
 <div class="ttc" id="config__structure_8hpp_html"><div class="ttname"><a href="config__structure_8hpp.html">config_structure.hpp</a></div><div class="ttdoc">All the information about the definition of the physical problem. The subroutines and functions are i...</div></div>
 <div class="ttc" id="class_c_element_html_ae4b5c94e4364c21a3f5d060b627a17d4"><div class="ttname"><a href="class_c_element.html#ae4b5c94e4364c21a3f5d060b627a17d4">CElement::nDim</a></div><div class="ttdeci">static unsigned short nDim</div><div class="ttdoc">Number of dimension of the problem. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00060">element_structure.hpp:60</a></div></div>
-<<<<<<< HEAD
-<div class="ttc" id="class_c_t_r_i_a1_html"><div class="ttname"><a href="class_c_t_r_i_a1.html">CTRIA1</a></div><div class="ttdoc">Tria element with 1 Gauss Points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00384">element_structure.hpp:384</a></div></div>
-<div class="ttc" id="class_c_h_e_x_a8_html"><div class="ttname"><a href="class_c_h_e_x_a8.html">CHEXA8</a></div><div class="ttdoc">Hexahedral element with 8 Gauss Points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00573">element_structure.hpp:573</a></div></div>
-=======
 <div class="ttc" id="class_c_t_r_i_a1_html"><div class="ttname"><a href="class_c_t_r_i_a1.html">CTRIA1</a></div><div class="ttdoc">Tria element with 1 Gauss Points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00399">element_structure.hpp:399</a></div></div>
 <div class="ttc" id="class_c_h_e_x_a8_html"><div class="ttname"><a href="class_c_h_e_x_a8.html">CHEXA8</a></div><div class="ttdoc">Hexahedral element with 8 Gauss Points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00588">element_structure.hpp:588</a></div></div>
->>>>>>> gh-pages
 <div class="ttc" id="mpi__structure_8hpp_html"><div class="ttname"><a href="mpi__structure_8hpp.html">mpi_structure.hpp</a></div><div class="ttdoc">Headers of the mpi interface for generalized datatypes. The subroutines and functions are in the mpi_...</div></div>
 <div class="ttc" id="class_c_element_html_a9595b4201510b4a1754f131d63d2be57"><div class="ttname"><a href="class_c_element.html#a9595b4201510b4a1754f131d63d2be57">CElement::nNodes</a></div><div class="ttdeci">unsigned short nNodes</div><div class="ttdoc">Number of gaussian points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00059">element_structure.hpp:59</a></div></div>
 <div class="ttc" id="gauss__structure_8hpp_html"><div class="ttname"><a href="gauss__structure_8hpp.html">gauss_structure.hpp</a></div><div class="ttdoc">Headers of the Finite Element structure (gaussian points) The subroutines and functions are in the ga...</div></div>
@@ -585,29 +375,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="class_c_element_html_a752d743c55a909d617158feb24771aea"><div class="ttname"><a href="class_c_element.html#a752d743c55a909d617158feb24771aea">CElement::NodalExtrap</a></div><div class="ttdeci">su2double ** NodalExtrap</div><div class="ttdoc">Coordinates of the nodal points for Gaussian extrapolation. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00067">element_structure.hpp:67</a></div></div>
 <div class="ttc" id="class_c_element_html_a9dfd36f95993578d01ed735b3043bad0"><div class="ttname"><a href="class_c_element.html#a9dfd36f95993578d01ed735b3043bad0">CElement::GaussPointP</a></div><div class="ttdeci">CGaussVariable ** GaussPointP</div><div class="ttdoc">Structure for the Gaussian Points for the pressure subintegration. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00070">element_structure.hpp:70</a></div></div>
 <div class="ttc" id="class_c_element_html_aec9681b2bfe75c489c63dd79063a7d31"><div class="ttname"><a href="class_c_element.html#aec9681b2bfe75c489c63dd79063a7d31">CElement::Kt_a</a></div><div class="ttdeci">su2double ** Kt_a</div><div class="ttdoc">Structure for the nodal stress term for the residual computation. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00075">element_structure.hpp:75</a></div></div>
-<<<<<<< HEAD
-<div class="ttc" id="class_c_t_e_t_r_a1_html"><div class="ttname"><a href="class_c_t_e_t_r_a1.html">CTETRA1</a></div><div class="ttdoc">Tetrahedral element with 1 Gauss Point. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00526">element_structure.hpp:526</a></div></div>
-<div class="ttc" id="class_c_element_html_abf3288edfb341719c77b864a3bea0039"><div class="ttname"><a href="class_c_element.html#abf3288edfb341719c77b864a3bea0039">CElement::RefCoord</a></div><div class="ttdeci">su2double ** RefCoord</div><div class="ttdoc">Coordinates in the reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00061">element_structure.hpp:61</a></div></div>
-<div class="ttc" id="class_c_element_html_ab886c32bdfbfbc994370e0afc2147c8e"><div class="ttname"><a href="class_c_element.html#ab886c32bdfbfbc994370e0afc2147c8e">CElement::Kk_ab</a></div><div class="ttdeci">su2double *** Kk_ab</div><div class="ttdoc">Structure for the pressure component of the tangent matrix. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00074">element_structure.hpp:74</a></div></div>
-<div class="ttc" id="codi__forward__structure_8hpp_html_a87976ffca908428510c7b3fb2f4c1a80"><div class="ttname"><a href="codi__forward__structure_8hpp.html#a87976ffca908428510c7b3fb2f4c1a80">su2double</a></div><div class="ttdeci">codi::RealForward su2double</div><div class="ttdef"><b>Definition:</b> <a href="codi__forward__structure_8hpp_source.html#l00035">codi_forward_structure.hpp:35</a></div></div>
-<div class="ttc" id="class_c_h_e_x_a8_p1_html"><div class="ttname"><a href="class_c_h_e_x_a8_p1.html">CHEXA8P1</a></div><div class="ttdoc">Hexahedral element with 8 Gauss Points and 1 Gauss Point for pressure subintegration. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00626">element_structure.hpp:626</a></div></div>
-<div class="ttc" id="class_c_element_html_af17bbbac89123054c43a84c3ce6e41ac"><div class="ttname"><a href="class_c_element.html#af17bbbac89123054c43a84c3ce6e41ac">CElement::nGaussPoints</a></div><div class="ttdeci">unsigned short nGaussPoints</div><div class="ttdoc">Number of gaussian points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00057">element_structure.hpp:57</a></div></div>
-<div class="ttc" id="class_c_element_html_a933c61709c78378c504abb1e94c38946"><div class="ttname"><a href="class_c_element.html#a933c61709c78378c504abb1e94c38946">CElement::GaussWeight</a></div><div class="ttdeci">su2double * GaussWeight</div><div class="ttdoc">Weight of the Gaussian Points for the integration. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00063">element_structure.hpp:63</a></div></div>
-<div class="ttc" id="class_c_config_html"><div class="ttname"><a href="class_c_config.html">CConfig</a></div><div class="ttdoc">Main class for defining the problem; basically this class reads the configuration file...</div><div class="ttdef"><b>Definition:</b> <a href="config__structure_8hpp_source.html#l00061">config_structure.hpp:61</a></div></div>
-<div class="ttc" id="class_c_q_u_a_d4_html"><div class="ttname"><a href="class_c_q_u_a_d4.html">CQUAD4</a></div><div class="ttdoc">Quadrilateral element with 4 Gauss Points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00432">element_structure.hpp:432</a></div></div>
-<div class="ttc" id="class_c_element_html_ad9c73eda27830c9118f408ef3c226b9c"><div class="ttname"><a href="class_c_element.html#ad9c73eda27830c9118f408ef3c226b9c">CElement::el_Pressure</a></div><div class="ttdeci">su2double el_Pressure</div><div class="ttdoc">Pressure in the element. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00076">element_structure.hpp:76</a></div></div>
-<div class="ttc" id="class_c_element_html_a7f02a2746c1ae86811964070beb2e6cd"><div class="ttname"><a href="class_c_element.html#a7f02a2746c1ae86811964070beb2e6cd">CElement::Mab</a></div><div class="ttdeci">su2double ** Mab</div><div class="ttdoc">Structure for the nodal components of the mass matrix. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00071">element_structure.hpp:71</a></div></div>
-<div class="ttc" id="class_c_element_html_a766355086b305db08d1a40c65e3c87f0"><div class="ttname"><a href="class_c_element.html#a766355086b305db08d1a40c65e3c87f0">CElement::nGaussPointsP</a></div><div class="ttdeci">unsigned short nGaussPointsP</div><div class="ttdoc">Number of gaussian points for the pressure term. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00058">element_structure.hpp:58</a></div></div>
-<div class="ttc" id="class_c_element_html_aaebc588b3eb876583a37a72ca61e7547"><div class="ttname"><a href="class_c_element.html#aaebc588b3eb876583a37a72ca61e7547">CElement::Kab</a></div><div class="ttdeci">su2double *** Kab</div><div class="ttdoc">Structure for the constitutive component of the tangent matrix. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00072">element_structure.hpp:72</a></div></div>
-<div class="ttc" id="class_c_element_html_ae1df09d359467500af3b87d6fd919f05"><div class="ttname"><a href="class_c_element.html#ae1df09d359467500af3b87d6fd919f05">CElement::GaussPoint</a></div><div class="ttdeci">CGaussVariable ** GaussPoint</div><div class="ttdoc">Structure for the Gaussian Points. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00069">element_structure.hpp:69</a></div></div>
-<div class="ttc" id="class_c_q_u_a_d4_p1_html"><div class="ttname"><a href="class_c_q_u_a_d4_p1.html">CQUAD4P1</a></div><div class="ttdoc">Quadrilateral element with 4 Gauss Points and 1 Gauss Point for pressure subintegration. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00485">element_structure.hpp:485</a></div></div>
-<div class="ttc" id="class_c_gauss_variable_html"><div class="ttname"><a href="class_c_gauss_variable.html">CGaussVariable</a></div><div class="ttdoc">Main class for defining the gaussian points. </div><div class="ttdef"><b>Definition:</b> <a href="gauss__structure_8hpp_source.html#l00053">gauss_structure.hpp:53</a></div></div>
-<div class="ttc" id="class_c_element_html_a78103c0f26f0b5af2f1507a8fbf6213b"><div class="ttname"><a href="class_c_element.html#a78103c0f26f0b5af2f1507a8fbf6213b">CElement::NodalStress</a></div><div class="ttdeci">su2double ** NodalStress</div><div class="ttdoc">Stress at the nodes. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00068">element_structure.hpp:68</a></div></div>
-</div><!-- fragment --></div><!-- contents -->
-<!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Thu Jun 16 2016 13:54:13 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
-=======
 <div class="ttc" id="class_c_t_e_t_r_a1_html"><div class="ttname"><a href="class_c_t_e_t_r_a1.html">CTETRA1</a></div><div class="ttdoc">Tetrahedral element with 1 Gauss Point. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00541">element_structure.hpp:541</a></div></div>
 <div class="ttc" id="class_c_element_html_abf3288edfb341719c77b864a3bea0039"><div class="ttname"><a href="class_c_element.html#abf3288edfb341719c77b864a3bea0039">CElement::RefCoord</a></div><div class="ttdeci">su2double ** RefCoord</div><div class="ttdoc">Coordinates in the reference frame. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00061">element_structure.hpp:61</a></div></div>
 <div class="ttc" id="class_c_element_html_ab886c32bdfbfbc994370e0afc2147c8e"><div class="ttname"><a href="class_c_element.html#ab886c32bdfbfbc994370e0afc2147c8e">CElement::Kk_ab</a></div><div class="ttdeci">su2double *** Kk_ab</div><div class="ttdoc">Structure for the pressure component of the tangent matrix. </div><div class="ttdef"><b>Definition:</b> <a href="element__structure_8hpp_source.html#l00074">element_structure.hpp:74</a></div></div>
@@ -630,8 +397,7 @@ Generated on Thu Jun 16 2016 13:54:13 for SU2 by &#160;<a href="http://www.doxyg
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jun 18 2016 14:06:08 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
->>>>>>> gh-pages
+Generated on Sun Jun 19 2016 13:20:27 for SU2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
